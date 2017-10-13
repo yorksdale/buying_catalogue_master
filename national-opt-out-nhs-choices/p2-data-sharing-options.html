@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <link href="https://dhrlmnmyf2njb.cloudfront.net/" rel="dns-prefetch">
+  <!--[if IE]><link rel="shortcut icon" href="https://beta.nhs.uk/assets/images/favicon.8e5829c70c4dac23302606c633ba037e.ico"><![endif]-->
+  <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
+  <link rel="apple-touch-icon" href="https://beta.nhs.uk/assets/images/apple-touch-icon.51d7ed9b37c74642c512acc8e3890c10.png">
+  <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 192x192 pixels in size. -->
+
+  <link rel="icon" href="../resources/img/favicon.png">
+  <title>Confirming who you are - NHS.UK</title>
+  <meta name="description" content="This is where NHS.UK tests new pages and services to get feedback. Please take a look and tell us what you think. It will help us to improve what we do.">
+
+  <meta name="WT.si_n" content="Test pages for NHS.UK">
+  <meta name="WT.si_p" content="/">
+
+  <!-- opengraph -->
+  <meta property="og:url" content="https://beta.nhs.uk/">
+  <meta property="og:site_name" content="NHS.UK">
+  <meta property="og:title" content="Test pages for NHS.UK - NHS.UK">
+  <meta property="og:description" content="This is where NHS.UK tests new pages and services to get feedback. Please take a look and tell us what you think. It will help us to improve what we do.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:image" content="https://beta.nhs.uk/assets/images/opengraph-image.3c9d6b72612293dbbba71ecc0af35f14.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+
+  <!-- twitter -->
+  <meta name="twitter:card" value="summary">
+  <meta name="twitter:domain" value="beta.nhs.uk">
+  <meta name="twitter:title" content="Test pages for NHS.UK - NHS.UK">
+  <meta name="twitter:description" content="This is where NHS.UK tests new pages and services to get feedback. Please take a look and tell us what you think. It will help us to improve what we do.">
+
+  <!--[if gt IE 8]><!-->
+  <link href="../resources/css/nhsuk.css" media="screen" rel="stylesheet" type="text/css">
+  <!--<![endif]-->
+  <!--[if IE 6]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie6.73a095663c9860eaca70ee88706b2edd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if IE 7]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie7.73a095663c9860eaca70ee88706b2edd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if IE 8]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie8.b63acf865cc40502bd31b8d84191dafe.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+
+
+
+  <!--[if lt IE 9]>
+  <script src="https://beta.nhs.uk/assets/javascripts/ie.bundle.f5ca7cade4a642b5811d159fe9957e33.js" type="text/javascript"></script>
+<![endif]-->
+
+  <!--- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+
+  <script async src="https://beta.nhs.uk/assets/javascripts/picturefill.bundle.1df4486deab716969f0bc2f41ae4a2cd.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../resources/js/jquery-2.2.4.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //Ensure checkbox is empty on page load
+      $('input:checkbox').prop('checked', false);
+
+      //Set checkbox as variable
+      var ckbox = $('#pds-confirm-checkbox');
+
+      //function to turn bg-grey border green if checkbox is checked and red if it is not
+      $('input').on('click', function() {
+        if (ckbox.is(':checked')) {
+          $('.checkbox-container').css("border", "2px solid transparent");
+        }
+      });
+    });
+
+    //function to ensure form can't be submitted when checbkbox not checked
+    jQuery(function($) {
+      //form submit handler
+      $('#form').submit(function(e) {
+        //check atleat 1 checkbox is checked
+        if (!$('.pds-confirm').is(':checked')) {
+          //prevent the default form submit if it is not checked
+          e.preventDefault();
+          $('.checkbox-container').css("border", "2px solid #C83520");
+        }
+      })
+    })
+  </script>
+
+</head>
+
+<body>
+  <script>
+    (function(d) {
+      d.className = d.className.replace(/\bno-js\b/, 'js-enabled')
+    })(document.documentElement);
+  </script>
+
+  <div class="skiplinks">
+    <div class="skiplinks__inner">
+      <a href="#content" class="skiplinks__link">Skip to main content</a>
+    </div>
+  </div>
+
+  <header role="banner">
+    <div class="global-header">
+      <div class="global-header__inner">
+        <a href="../index.html" class="global-header__link">
+                    <img src="https://beta.nhs.uk/assets/images/logotype-nhs-mono.ebd13fdb8c83b4caa3068588b0b838fd.png" alt="NHS">
+                </a>
+      </div>
+    </div>
+
+  </header>
+
+  <main id="content" role="main" tabindex="-1" class="util-nofocus">
+
+    <article role="article">
+
+      <div class="local-header">
+
+        <h1 class="local-header__title">Confirming who you are</h1>
+        <div class="local-header__intro">
+          <div class="reading-width">
+            <p>To set your data sharing preferences we need to check who you are to stop someone pretending to be you</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="page-section">
+
+        <div class="reading-width">
+
+          <p>You will be asked to complete a few short steps after which you will receive a confirmation email or text message.</p>
+          <p>Before you can start you will need:</p>
+          <ul>
+            <li>An email address or mobile number registered with your current GP practice</li>
+            <li>Access to your email or mobile phone</li>
+            <li>Your NHS number, if you have one. <a href="info-a.html">Where to find my NHS number</a></li>
+          </ul>
+          <br />
+          <p><b>Important:</b> If you have not registered your email/mobile details with your GP practice it will not be possible for you to continue with this process online. <a href="#sharing-options">Other ways to set your preferences</a></p>
+          <p><b>Before you start you must agree to the following statement by ticking the box</b></p>
+
+          <div class="row">
+            <div class="form-group">
+              <form class="form-checkbox" id="form" action="p3-pds-online-lookup.html">
+                <div class="checkbox-container" style="border: 2px solid transparent">
+                  <article class="panel panel-pds">
+                    <div class="panel__content">
+                      <label class="pds-confirm block-label" for="pds-confirm-checkbox">
+    									<input type="checkbox" class="pds-confirm" id="pds-confirm-checkbox" />
+    									<p>I allow the NHS to use my email address or mobile number to check who I am and confirm the data sharing choices I make. </p>
+                    </label>
+                    </div>
+                  </article>
+                  <div class="panel__footer">
+                    <p>Your email and mobile will not be used for any other purpose. It will never be used for marketing.</p>
+                  </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary greenbtn" name="submit" value="Start now" id="start-now-btn">Start now &nbsp;<i class="fa fa-chevron-right"></i></button>
+              </form>
+            </div>
+          </div>
+
+          <div class="callout callout--info">
+            <p>Placeholder text</p>
+          </div>
+
+          <div class="callout callout--info">
+            <p>Placeholder text</p>
+          </div>
+
+          <div class="callout callout--info">
+            <p>Placeholder text</p>
+          </div>
+
+          <p><a href="#">Back to top</a></p>
+
+        </div>
+
+      </div>
+
+    </article>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="global-footer">
+      <div class="global-footer__inner">
+
+        <div>
+          <h2 class="util-visuallyhidden">Support links</h2>
+          <ul class="link-list">
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="/help/clinical-assurance">Clinical assurance</a>
+            </li>
+            <li>
+              <a href="/help/cookies">Cookies</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://beta.nhs.uk/assets/javascripts/nhsuk.bundle.e72c4a48487a59ab9ae9c0cf84be6288.js" type="text/javascript"></script>
+
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-67365892-5', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+
+  <script>
+    // WebTrends SmartSource Data Collector Tag v10.4.23
+    // Copyright (c) 2016 Webtrends Inc.  All rights reserved.
+    // Tag Builder Version: 4.1.3.5
+    // Created: 2016.01.13
+    window.webtrendsAsyncInit = function() {
+      var dcs = new Webtrends.dcs().init({
+        dcsid: 'dcs222rfg0jh2hpdaqwc2gmki_9r4q',
+        domain: 'statse.webtrendslive.com',
+        timezone: 0,
+        i18n: true,
+        adimpressions: true,
+        adsparam: 'WT.ac',
+        offsite: true,
+        download: true,
+        downloadtypes: 'xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip',
+        onsitedoms: 'nhs.uk',
+        fpcdom: '.nhs.uk',
+        plugins: {
+          hm: {
+            src: '//s.webtrends.com/js/webtrends.hm.js'
+          }
+        }
+      }).track();
+    };
+    (function() {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = "https://beta.nhs.uk/assets/javascripts/webtrends.bundle.8c43605df7b8b3b3ad5935b61ed0ee7a.js";
+      var s2 = document.getElementsByTagName('script')[0];
+      s2.parentNode.insertBefore(s, s2);
+    }());
+  </script>
+
+  <noscript>
+    <img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcs222rfg0jh2hpdaqwc2gmki_9r4q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.4.23&amp;dcssip=.nhs.uk"/>
+  </noscript>
+
+
+
+</body>
+
+</html>

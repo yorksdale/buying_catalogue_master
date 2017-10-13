@@ -1,0 +1,546 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>NHS Choices Home Page</title>
+    <meta name="description" content="National Opt Out Model - Our Obligation">
+    <link rel="shortcut icon" href="../resources/img/nhs-favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="stylesheet" type="text/css" href="../resources/css/nhs-uk-base.css" media=" screen" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/nhs-uk-print.css" media="print" />
+    <style type="text/css">
+        @import url('../resources/css/nhs-uk-reset.css') screen;
+        @import url('../resources/css/nhs-uk-screen.css') screen;
+        @import url('../resources/css/nhs-uk-generalcontent.css') screen;
+        @import url('../resources/css/nhs-uk-refresh.css') screen;
+        @import url('../resources/css/nhs-uk-homepage-refresh.css') screen;
+    </style>
+    <style type="text/css">.wrap {background-image: url(../resources/img/choices-homepage/head-image-4.jpg);}</style>
+
+
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <!--- _______________________________ NAV _______________________________ --->
+
+        <div class="topnavwrap">
+
+            <ul class="info-nav">
+
+                <li class="first">
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+                <li>
+                    <a href="#">Tools</a>
+                </li>
+
+                <li>
+                    <a href="#">Video</a>
+                </li>
+
+                <li>
+                    <a href="/NHSEngland/appointment-booking/Pages/about-the-referral-system.aspx" onclick="dcsMultiTrack('DCSext.HeaderClickUrl','/NHSEngland/appointment-booking/Pages/about-the-referral-system.aspx','WT.dl','121')">e-Referral Service</a>
+                </li>
+
+                <li>
+                    <a href="http://www.healthunlocked.com/nhschoices/" onclick="dcsMultiTrack('DCSext.HeaderClickUrl','http://www.healthunlocked.com/nhschoices/','WT.dl','121')">Communities</a>
+                </li>
+
+                <li class="last">
+                    <a href="/ipg/Pages/IPStart.aspx" onclick="dcsMultiTrack('DCSext.HeaderClickUrl','/ipg/Pages/IPStart.aspx','WT.dl','121')">IPS</a>
+                </li>
+
+            </ul>
+
+
+            <div class="tab-login anonymous-login">
+                <ul class="translate">
+                    <li class="translate-item"><a href="#" class="translate-text">Translate</a></li>
+                </ul>
+                <ul class="personal-header clear">
+                    <li class="logged-out"><span class="crnr tl"></span><a href="#">Log in</a>&nbsp;or</li>
+                    <li class="create-account"><a href="#">create an account</a>
+                        <span class="crnr tr"></span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--- _______________________________ HEADER _______________________________ --->
+
+        <div class="header">
+            <span class="crnr tl"></span>
+            <div class="heading">
+
+                <p class="choices-logo">
+                    <a href="../index.html" title="Go to NHS Choices homepage"><img src="../resources/img/choices-logo.gif" alt="Go to NHS Choices homepage" width="212" height="35" /></a><span>Your health, your choices</span></p>
+
+            </div>
+
+            <p class="hidden"><strong>Information navigation</strong></p>
+            <div class="searchbar">
+                <form id="gs" method="get" action="search-results.html">
+                    <fieldset>
+                        <legend class="hidden">Search entire site</legend>
+                        <div class="search-inner" id="IdSearchBoxContainer">
+                            <div><span class="crnr tl"></span><span class="crnr tr"></span></div>
+                            <div id="search-results-container">
+                                <label for="q"><span class="hidden">Enter a search term: </span><input id="q" type="text" placeholder="Enter a search term" /></label>
+                            </div>
+                            <div class="submit-container">
+                                <div><span class="crnr tl"></span><span class="crnr tr"></span></div>
+                                <div class="submit">
+                                    <div><span class="crnr tl"></span><span class="crnr tr"></span></div>
+                                    <input type="submit" value="Search" href="noom-about.html"/>
+                                    <div><span class="crnr bl"></span><span class="crnr br"></span></div>
+                                </div>
+                                <div><span class="crnr bl"></span><span class="crnr br"></span></div>
+                            </div>
+                            <span class="crnr bl"></span><span class="crnr br"></span>
+                        </div>
+                    </fieldset>
+                </form>
+                <script type="text/javascript" src="/includes/jquery-1.11.3.min.js"></script>
+                <script type="text/javascript">
+                    //<![CDATA[
+                    jq1113 = jQuery.noConflict(true);
+                    //]]>
+                </script>
+                <script type="text/javascript" src="/includes/typeahead.bundle.min.jq1113.js"></script>
+                <script type="text/javascript" src="/includes/nhs.typeahead.js"></script>
+            </div>
+
+            <div class="main-nav clear" id="main-navigation">
+                <p class="hidden"><strong>Main navigation</strong></p>
+                <div id="ctl00_Header_mainNavigation">
+                    <ul>
+                        <li class="health-az" id="health-az-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/Conditions/Pages/hub.aspx','WT.dl','121')" href="/Conditions/Pages/hub.aspx"> Health A-Z</a>
+
+                        </li>
+                        <li class="livewell" id="livewell-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/livewell/Pages/Livewellhub.aspx','WT.dl','121')" href="/livewell/Pages/Livewellhub.aspx"> Live Well</a>
+
+                        </li>
+                        <li class="carers" id="carers-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/Conditions/social-care-and-support-guide/Pages/what-is-social-care.aspx','WT.dl','121')" href="/Conditions/social-care-and-support-guide/Pages/what-is-social-care.aspx"> Care and support</a>
+
+                        </li>
+                        <li class="news" id="news-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/News/Pages/NewsIndex.aspx','WT.dl','121')" href="/News/Pages/NewsIndex.aspx"> Health news</a>
+
+                        </li>
+                        <li class="find-services" id="find-services-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/service-search','WT.dl','121')" href="/service-search"> Services near you</a>
+                            <div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="ctl00_Header_onlineSurveyInjector" class="survey">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--- _______________________________ CONTENT _______________________________ --->
+
+        <div class="content-wrap clear carers carers-subcategory gsc-subcategory">
+
+            <div class="content-row-full content-row-healthaz clear">
+                <div class="content-row">
+                    <div id="RowOne" class="WebPartZone-Vertical">
+
+                        <div class="initializer" id="healthazrefresh">
+                            <div id="ctl00_SPWebPartManager1_2e3887d8-d9f0-4d32-ae42-e8f740677801">
+
+                                <div class="box-healthaz clear">
+                                    <div class="content-primary">
+                                        <h2>Health A-Z</h2>
+                                        <p>Symptoms, conditions, medicines and treatments</p>
+                                        <p class="cta-button">
+                                            <a href="/Conditions/Pages/hub.aspx" onclick="dcsMultiTrack('DCSext.HomepageEvents','Module Head Url Clicked','DCSext.ModuleName','Health A-Z','DCSext.ModuleHeadUrl','/Conditions/Pages/hub.aspx','WT.dl','121')" onkeypress="this.onclick()">Find conditions and treatments</a>
+                                        </p>
+                                    </div>
+                                    <div class="content-secondary">
+                                        <p>Most common</p>
+                                        <ul>
+                                            <li>
+                                                <a onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Health A-Z','DCSext.ModuleSectionClicked','Common conditions','DCSext.ModuleUrl','/conditions/stomach-ache-abdominal-pain/pages/introduction.aspx','WT.dl','121')"
+                                                    onkeypress="this.onclick()" href="/conditions/stomach-ache-abdominal-pain/pages/introduction.aspx" title="Stomach ache">Stomach ache</a>
+                                            </li>
+                                            <li>
+                                                <a onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Health A-Z','DCSext.ModuleSectionClicked','Common conditions','DCSext.ModuleUrl','/conditions/Chest-infection-adult/Pages/Introduction.aspx ','WT.dl','121')" onkeypress="this.onclick()"
+                                                    href="/conditions/Chest-infection-adult/Pages/Introduction.aspx " title="Chest infection">Chest infection</a>
+                                            </li>
+                                            <li>
+                                                <a onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Health A-Z','DCSext.ModuleSectionClicked','Common conditions','DCSext.ModuleUrl','/conditions/depression/Pages/Introduction.aspx','WT.dl','121')" onkeypress="this.onclick()"
+                                                    href="/conditions/depression/Pages/Introduction.aspx" title="Depression">Depression</a>
+                                            </li>
+                                            <li>
+                                                <a onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Health A-Z','DCSext.ModuleSectionClicked','Common conditions','DCSext.ModuleUrl','/conditions/back-pain','WT.dl','121')" onkeypress="this.onclick()" href="/conditions/back-pain"
+                                                    title="Back pain">Back pain</a>
+                                            </li>
+                                            <li>
+                                                <a onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Health A-Z','DCSext.ModuleSectionClicked','Common conditions','DCSext.ModuleUrl','/Conditions/Diabetes/Pages/Diabetes.aspx','WT.dl','121')" onkeypress="this.onclick()"
+                                                    href="/Conditions/Diabetes/Pages/Diabetes.aspx" title="Diabetes (male)">Diabetes</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- second row - find local services, other panels -->
+            <div class="content-row-full row-bg clear">
+                <div class="content-row clear">
+
+                    <div class="box box-findservices clear">
+                        <div class="find-services">
+                            <h2>Find local services</h2>
+                            <fieldset>
+                                <legend class="hidden">Select a service:</legend>
+                                <div class="clear">
+                                    <input id="ctl00_PlaceHolderMain_MainContent_ctl00_gp" type="radio" name="ctl00$PlaceHolderMain$MainContent$ctl00$service" value="gp" checked="checked" /><label for="ctl00_PlaceHolderMain_MainContent_ctl00_gp" class="gp">GP<span></span></label>
+                                    <input id="ctl00_PlaceHolderMain_MainContent_ctl00_urgentcare" type="radio" name="ctl00$PlaceHolderMain$MainContent$ctl00$service" value="urgentcare" />
+                                    <label for="ctl00_PlaceHolderMain_MainContent_ctl00_urgentcare" class="urgentcare">Urgent care<span></span></label>
+                                    <input id="ctl00_PlaceHolderMain_MainContent_ctl00_hospitals" type="radio" name="ctl00$PlaceHolderMain$MainContent$ctl00$service" value="hospitals" />
+                                    <label for="ctl00_PlaceHolderMain_MainContent_ctl00_hospitals" class="hospitals">Hospitals<span></span></label>
+                                    <input id="ctl00_PlaceHolderMain_MainContent_ctl00_dentists" type="radio" name="ctl00$PlaceHolderMain$MainContent$ctl00$service" value="dentists" />
+                                    <label for="ctl00_PlaceHolderMain_MainContent_ctl00_dentists" class="dentists last">Dentists<span></span></label>
+                                </div>
+                                <input type="hidden" name="ctl00$PlaceHolderMain$MainContent$ctl00$PostcodeDefaultText" id="ctl00_PlaceHolderMain_MainContent_ctl00_PostcodeDefaultText" value="Enter your postcode" />
+                                <a id="find-local-services" class="anchor"></a>
+                                <label id="ctl00_PlaceHolderMain_MainContent_ctl00_NormalPostcodeLabel" for="ctl00_PlaceHolderMain_MainContent_ctl00_Postcode" class="hidden">Enter your postcode</label>
+
+                                <input name="ctl00$PlaceHolderMain$MainContent$ctl00$Postcode" type="text" value="Enter your postcode" id="ctl00_PlaceHolderMain_MainContent_ctl00_Postcode" />
+                                <div class="clear">
+                                    <p class="full-list"><a href="/Service-Search/Services">Full list of services</a></p>
+                                    <input type="submit" name="ctl00$PlaceHolderMain$MainContent$ctl00$Submit" value="Search for services" id="ctl00_PlaceHolderMain_MainContent_ctl00_Submit" />
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="call">
+                            <p><strong>Call 111</strong> for non-emergency medical advice</p>
+                        </div>
+                    </div>
+
+
+                    <div id="RowTwo" class="WebPartZone-Vertical">
+
+                        <div id="ctl00_SPWebPartManager1_b4815df6-93d6-4247-b1df-c3731f1de0ee">
+                            <div class="initializer" id="doitonline">
+
+                                <div class="box box-tall box-doitonline clear">
+                                    <div id="dialog-confirm"></div>
+                                    <h2>Do it online</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.ehic.org.uk/Internet/startApplication.do" class="ext-confirm" onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Do it online','DCSext.ModuleSectionClicked','Do it online','DCSext.ModuleUrl','https://www.ehic.org.uk/Internet/startApplication.do','WT.dl','121')"
+                                                onkeypress="this.onclick()">
+                                                Get a European Health Insurance Card
+                                                </a>
+                                        </li>
+                                        <li>
+                                            <a href="/aboutNHSChoices/aboutnhschoices/find-and-choose-services/Pages/gp-online-services.aspx" onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Do it online','DCSext.ModuleSectionClicked','Do it online','DCSext.ModuleUrl','/aboutNHSChoices/aboutnhschoices/find-and-choose-services/Pages/gp-online-services.aspx','WT.dl','121')"
+                                                onkeypress="this.onclick()" title="Book a GP appointment">
+                                                Book a GP appointment
+                                                </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.ebs.ncrs.nhs.uk/" class="ext-confirm" onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Do it online','DCSext.ModuleSectionClicked','Do it online','DCSext.ModuleUrl','https://www.ebs.ncrs.nhs.uk/','WT.dl','121')"
+                                                onkeypress="this.onclick()" title="e-Referral Service">
+                                                e-Referral Service
+                                                </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://apps.nhsbsa.nhs.uk/ppcwebsales/patient.do" class="ext-confirm" onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Do it online','DCSext.ModuleSectionClicked','Do it online','DCSext.ModuleUrl','https://apps.nhsbsa.nhs.uk/ppcwebsales/patient.do','WT.dl','121')"
+                                                onkeypress="this.onclick()">
+                                                Buy a prescription pre-payment certificate
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="ctl00_SPWebPartManager1_4d3de81a-a121-44c8-91c8-1bb8b8368d26">
+                            <div class="initializer" id="organdonation">
+
+                                <div class="box box-short clear">
+                                    <a href="https://www.organdonation.nhs.uk/register-to-donate/register-your-details/?campaign=2331&amp;utm_source=nhsc_hp_organ&amp;utm_medium=referral&amp;utm_content=web&amp;utm_campaign=partner" onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Organ Donation','DCSext.ModuleSectionClicked','Organ Donation','DCSext.ModuleUrl','https://www.organdonation.nhs.uk/register-to-donate/register-your-details/?campaign=2331&amp;utm_source=nhsc_hp_organ&amp;utm_medium=referral&amp;utm_content=web&amp;utm_campaign=partner','WT.dl','121')"
+                                        onkeypress="this.onclick()" class="clear ext-confirm">
+                                        <span class="box-image">
+							                <img src="../resources/img/choices-homepage/logo-organdonor.png" alt="" />
+					                    </span>
+                                        <span class="box-content">
+			                                <h2>Organ Donation</h2>
+			                                <span>Register as an organ donor</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ctl00_SPWebPartManager1_561c22f7-b4db-4830-84cc-997d4b2a302c">
+                            <div class="initializer" id="giveblood">
+                                <div class="box box-short clear">
+                                    <a href="http://www.blood.co.uk/?utm_source=nhsc_hp_blood&amp;utm_medium=referral&amp;utm_content=web&amp;utm_campaign=partner" onclick="dcsMultiTrack('DCSext.HomepageEvents','Panel Url Clicked','DCSext.ModuleName','Give blood','DCSext.ModuleSectionClicked','Give blood','DCSext.ModuleUrl','http://www.blood.co.uk/?utm_source=nhsc_hp_blood&amp;utm_medium=referral&amp;utm_content=web&amp;utm_campaign=partner','WT.dl','121')"
+                                        onkeypress="this.onclick()" class="clear ext-confirm">
+                                        <span class="box-image">
+    		                                 <img src="../resources/img/choices-homepage/logo-giveblood.png" alt="" />
+    					                </span>
+                                        <span class="box-content">
+                                             <h2>Give blood</h2>
+                                             <span>Register to give blood</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- third row - latest articles -->
+            <div class="content-row content-row-latest clear">
+                <div id="RowThree" class="WebPartZone-Vertical">
+
+                    <div class="initializer" id="carousel-homepage">
+                        <div id="ctl00_SPWebPartManager1_7b8fc5fd-0411-4026-acc1-842a5a3fe5cc">
+
+
+                            <div class="box-row">
+
+                                <h2>Latest articles</h2>
+
+                                <div id="articles" class="clear">
+
+                                    <ul>
+                                        <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#tab1">Winter tiredness</a></li>
+                                        <li class="ui-state-default ui-corner-top next-tab"><a href="#tab2">Allergies</a></li>
+                                        <li><a href="#tab3">Stroke: know the signs</a></li>
+                                    </ul>
+
+                                    <div id="tab1" class="tab-content">
+                                        <div class="article-image"><img src="../resources/img/choices-homepage/A_1216_winter-tiredness_d2de75_H.jpg" alt="" /></div>
+                                        <p class="article-text">If you find yourself longing for your warm bed more than usual during winter, blame the lack of sunlight. Try our energy-giving solutions</p>
+                                        <p class="article-link">
+                                            <a href="#">Tips for combating winter tiredness</a>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- fourth row -->
+            <div class="content-row clear">
+                <div id="RowFour" class="WebPartZone-Vertical">
+
+                    <div id="ctl00_SPWebPartManager1_bca92029-935b-4696-90ad-0f11c28f98dd">
+                        <div class="initializer" id="homepageteasers">
+
+                            <div class="box-row clear">
+                                <div class="box box-tall">
+                                    <div class="box-image">
+                                        <img src="../resources/img/choices-homepage/pregnancy-ducks.jpg" alt="" />
+                                    </div>
+                                    <div class="box-text">
+                                        <h2>Pregnancy and baby</h2>
+                                        <p>Find everything you need to know about pregnancy or caring for your baby</p>
+                                        <p>
+                                            <a href="#">Go to pregnancy and baby</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="box box-tall">
+                                    <div class="box-image">
+                                        <img src="../resources/img/choices-homepage/T_1116_hospital-waiting-times-122577203_T.jpg" alt="" />
+                                    </div>
+                                    <div class="box-text">
+                                        <h2>Compare waiting times</h2>
+                                        <p>When choosing where to be treated, consider that waiting times vary between hospitals</p>
+                                        <p>
+                                            <a href="#">More on waiting times</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="box box-tall">
+                                    <div class="box-image">
+                                        <img src="../resources/img/choices-homepage/image-small-4.jpg" alt="" />
+                                    </div>
+                                    <div class="box-text">
+                                        <h2>Care and support guide</h2>
+                                        <p>A step-by-step guide to the practical help, support and advice that's on offer</p>
+                                        <p>
+                                            <a href="#">View our social care guide</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="box box-tall">
+                                    <div class="box-image">
+                                        <img src="../resources/img/choices-homepage/T_0217_antibiotics_486823194_T.jpg" alt="" />
+                                    </div>
+                                    <div class="box-text">
+                                        <h2>Look behind the headlines</h2>
+                                        <p>'Antibiotics, not surgery, best for child appendicitis' says study</p>
+                                        <p>
+                                            <a href="#">Antibiotics &amp; child appendicitis?</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--- _______________________________ FOOTER _______________________________ --->
+
+    <div class="footer clear">
+
+        <div class="footer-tab-wrap">
+            <ul class="footer-tabs clear">
+                <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#footer-tab1"><span class="crnr tl"></span><span class="footer-title"><div>NHS Choices information</div></span><span class="crnr tr"></span></a></li>
+                <li><a href="#footer-tab2"><span class="crnr tl"></span><span class="footer-title"><div>Choices e-newsletters</div></span><span class="crnr tr"></span></a></li>
+                <li><a href="#footer-tab3"><span class="crnr tl"></span><span class="footer-title"><div>Your pages</div></span><span class="crnr tr"></span></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-content-wrap">
+            <div class="footer-content">
+                <div id="footer-tab1" class="footer-tab1 footer-tab-content clear">
+                    <div id="ctl00_Footer_ucPersonalisationFooter_SitePolicies" class="footer-list">
+
+                        <h2>Site policies</h2>
+                        <ul class="info">
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Editorial policy</a></li>
+                            <li><a href="#">Comments policy</a></li>
+                            <li><a href="#">Syndication</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Cookies policy</a></li>
+                            <li><a href="#">Links policy</a></li>
+                            <li><a href="#">Accessibility </a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div id="ctl00_Footer_ucPersonalisationFooter_OtherNHSSites" class="footer-list">
+
+                        <h2>Other NHS sites</h2>
+                        <ul class="info">
+                            <li><a href="#">My NHS</a></li>
+                            <li><a href="#">NHS Scotland</a></li>
+                            <li><a href="#">NHS Northern Ireland</a></li>
+                            <li><a href="#">NHS Wales</a></li>
+                            <li><a href="#">NHS Jobs</a></li>
+                            <li><a href="#">Health Careers</a></li>
+                            <li><a href="#">Department of Health</a></li>
+                            <li><a href="#">NHS England</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div id="ctl00_Footer_ucPersonalisationFooter_AbouttheNHS" class="footer-list">
+
+                        <h2>About the NHS</h2>
+                        <ul class="info">
+                            <li><a href="#">The NHS in England</a></li>
+                            <li><a href="#">About NHS services</a></li>
+                            <li><a href="#">NHS Friends and Family Test</a></li>
+                            <li><a href="#">Quality accounts</a></li>
+                            <li><a href="#">NHS e-Referral Service</a></li>
+                            <li><a href="#">Find authorities and trusts</a></li>
+                            <li><a href="#">Healthwatch England</a></li>
+                            <li><a href="#">The NHS complaints procedure</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div id="ctl00_Footer_ucPersonalisationFooter_OtherChannels" class="footer-list">
+
+                        <h2>Other channels</h2>
+                        <ul class="info">
+                            <li><a href="#">Follow us on Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">YouTube</a></li>
+                            <li><a href="#">Video library</a></li>
+                            <li><a href="#">Links library</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div id="ctl00_Footer_ucPersonalisationFooter_Languages" class="footer-list">
+
+                        <h2>Other Languages</h2>
+
+                        <span class="language-intro">Visit our </span><span class="language-intro"><a href="#">language section</a> for more health websites in foreign languages.</span>
+
+                    </div>
+                    <div id="ctl00_Footer_ucPersonalisationFooter_Contact" class="footer-list">
+
+                        <h2>Contact NHS Choices</h2>
+                        <ul class="info">
+                            <li><a href="#">Choices helpdesk</a></li>
+                            <li><a href="#">Freedom of Information requests</a></li>
+                            <li><a href="#">Working for NHS Choices</a></li>
+                            <li><a href="#">Request content evidence sources</a></li>
+                            <li><a href="#">NHS Direct legacy enquiries</a></li>
+                            <li><a href="#">Press enquiries</a></li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+                <div class="footer-logos clear">
+                    <ul>
+                        <li><span class="hidden">&ndash;</span>
+                            <a href="http://www.gov.uk/"><img src="../resources/img/gov-uk.gif" alt="Link to gov.uk &ndash; The new place to find government services and information" class="gov-uk" /></a>
+                        </li>
+                        <li><span class="hidden">&ndash;</span>
+                            <a href="/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/the-information-standard.aspx"><img src="../resources/img/information-standards.gif" alt="The Information Standard - Certified member" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

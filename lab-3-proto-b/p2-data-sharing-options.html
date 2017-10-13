@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Data sharing options - Start</title>
+
+	<link rel="icon" href="../resources/img/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="../resources/css/cip_main.css" media="screen" type="text/css" />
+
+	<script type="text/javascript" src="../resources/js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="../resources/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../resources/js/patient-online-signin.js"></script>
+	<script type="text/javascript" src="../resources/js/analytics.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			//Ensure checkbox is empty on page load
+			$('input:checkbox').prop('checked', false);
+
+			//Set checkbox as variable
+			var ckbox = $('#pds-confirm-checkbox');
+
+			//function to turn bg-grey border green if checkbox is checked and red if it is not
+			$('input').on('click',function () {
+					if (ckbox.is(':checked')) {
+							$('.bg-grey').css("border", "2px solid #009639");
+							$('.bg-grey .block-label:hover').css("border", "none")
+					} else {
+							$('.bg-grey').css("border", "2px solid red")
+					}
+			});
+		});
+
+		//function to ensure form can't be submitted when checbkbox not checked
+
+	</script>
+</head>
+
+<body class="">
+	<!--Header -->
+	<section class="section" id="header">
+		<div class="container header-main header-nhs">
+			<div class="row">
+				<div class="container-fluid header-logo col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+					<div class="row">
+						<a href="../index.html"><img height="30" alt="Brand" src="../resources/img/nhs_trans.png"></a>
+					</div>
+				</div>
+			</div></div>
+    </section>
+    <section class="section" id="sub-header">
+			<div class="container header-sub">
+        <div class="row"></div>
+      </div>
+    </section>
+
+    <!-- Main Body -->
+		<section class="section" id="content">
+    	<div class="login-pf-lg standardText">
+        <div class="container container-wrapper">
+          <div class="row">
+            <div class="container-fluid content-text col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+              <div class="row">
+                <div class="clearfix">
+									<div class="lead">
+										<h1>Confirming who you are</h1>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="clearfix col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+
+
+						<div class="row">
+							<h3>To set your data sharing preferences we need to check who you are to stop someone pretending to be you</h3>
+							<p>You will be asked to complete a few short steps after which you will receive a confirmation email or text message.</p>
+
+							<p>Before you can start you will need:</p>
+							<ul>
+								<li>An email address or mobile number registered with your current GP practice</li>
+								<li>Access to your email or mobile phone</li>
+								<li>Your NHS number, if you have one. <a href="info-a.html">Where to find my NHS number</a></li>
+							</ul>
+							<br>
+							<p><b>Important:</b> If you have not registered your email/mobile details with your GP practice it will not be possible for you to continue with this process online. <a href="#other">Other ways to set your preferences</a></p>
+						</div>
+
+						<div class="row">
+							<div class="form-group">
+								<h4>Before you start you must agree to the following statement by ticking the box</h4>
+								<form class="form-checkbox" id="form" action="p3-pds-online-lookup.html">
+									<div class="bg-grey">
+										<div class="row">
+											<label class="pds-confirm block-label" for="pds-confirm-checkbox">
+											<input type="checkbox" class="pds-confirm" id="pds-confirm-checkbox" />
+											<p>I allow the NHS to use  my email address or mobile number to check who I am and confirm the data sharing choices I make. </p>
+											<p style="font-size:0.8em;">Your email and mobile will not be used for any other purpose. It will never be used for marketing.</p>
+										</div>
+									</div>
+
+								  <br />
+									<button type="submit" class="btn btn-primary greenbtn" name="submit" value="Start now" id="start-now-btn">Start now &nbsp;<i class="fa fa-chevron-right"></i></button>
+								</form>
+							</div>
+						</div>
+
+							<!--<p>There are 5 steps to complete in order to do this online </p>
+								<ul class="number">
+								<li>Enter name, address, date of birth and your NHS number if available</li>
+								<li>Confirm how you would like to receive a verification code</li>
+								<li>Enter your code</li>
+								<li>Opt-out from sharing your data for research</li>
+								<li>Opt-out from sharing your data for managing health services</li>
+								</ul>-->
+
+
+
+								<!--<p>To change your options online you need to have given your mobile number or email address to your GP practice.</p>-->
+
+							<div class="row">
+								 <h3 id="other">Other ways to change your data sharing options</h3>
+
+
+								<ul class="number">
+									<li>Download a <a href="form-a.html">form</a> and follow the instructions</li>
+
+
+									<li>Visit your GP practice and ask the receptionist for information on setting your health data sharing preferences </li>
+								</ul></div>
+								<div class="row">
+								<h3>Useful information</h3>
+
+								<ul>
+									<li>Changing your preference will not affect your NHS treatment</li>
+									<li>You won’t be asked for any documents or any financial or medical information</li>
+									</ul>
+
+									<div class="notice-grey">
+									<p>If you are under 16 years old please ask a parent or guardian to help you decide</p>
+								</div>
+
+
+
+
+
+							<div class="notice-grey">
+								<p>If you have previously set your preferences and would now would like to change them, you can find  <a href="info-a1.html"> more information</a> here</p>
+								</div>
+
+							<div class="notice-grey">
+								<p>This only applies in England</p> <p><a href="form-a.html">more information</a></p>
+								</div>
+
+								<a href="#">back to top</a>
+
+
+
+
+
+							</div></div>
+							</div>
+
+						</div>
+
+
+				<br/>
+				<br/>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="section" id="sub-footer">
+		  <div class="container footer-sub">
+		    <div class="row"></div>
+		  </div>
+    </section>
+    <footer class="footer">
+		  <div class="container container-wrapper">
+		    <div class="row">
+		      <div class="container-fluid col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+		        <div class="row ">
+		          <p>
+		            <br/>
+								<br/>&copy; Crown copyright
+		            <br/>
+								<br/>Content available under
+		            <a role="button" href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>
+		            , except where otherwise stated.
+		            <br>
+								<br>
+		          </p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</footer>
+	</body>
+</html>

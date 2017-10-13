@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>NOOM Demo</title>
+
+		<link rel="icon" href="resources/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="resources/css/cip_main.css" media="screen" type="text/css" />
+
+		<script type="text/javascript" src="resources/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="resources/js/analytics.js"></script>
+	</head>
+
+	<body class="">
+    <!--Header -->
+    <section class="section" id="header"> <!--css class header-main for the blue heading bar -->
+      <div class="container header-main header-nhs">
+        <div class="row">
+          <div class= "container-fluid header-logo col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+            <div class="row">
+              <a><img height="30" alt="Brand" src="resources/img/nhs_trans.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  	<section class="section" id="sub-header">
+      <div class="container header-sub">
+        <div class="row">
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Body -->
+		<section class="section" id="content">
+      <div class="login-pf-lg standardText">
+        <div class="container container-wrapper">
+          <div class="row">
+            <div class="container-fluid content-text col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+              <div class="row">
+                <div class="lead">
+                  <h1>Noom prototypes </h1>
+                </div>
+                <div><br/.
+                <center>
+<form>
+<input type="button" value="Access user prototypes" onClick="passWord()">
+</form>
+</center>
+                <!---
+                <p>&nbsp;</p>
+
+
+								<hr>
+                <p>Optional prototypes</p>
+                <a role="button" href="national-opt-out-L1/data-sharing-options-p1c.html" >Opt-out - C</a><br/>
+                <p>&nbsp;</p>
+					 <hr>
+					 <p>Single page preference prototypes</p>
+					 <a role="button" href="national-opt-out-2FA-single-page/data-sharing-options-p1a.html" >Opt-out - A</a><br/>
+					 <a role="button" href="national-opt-out-single-page/data-sharing-options-p1b.html" >Opt-out - B</a><br/>
+					 <a role="button" href="national-opt-out-L1-single-page/data-sharing-options-p1c.html" >Opt-out - C</a><br/>
+					 <p>&nbsp;</p>
+
+               
+					 <hr>
+					 <p>Verify prototype</p>
+<a role="button" href="national-opt-out/data-sharing-options-p1b.html" >Opt-out-Verify</a>---><br/> 
+
+
+									<!--<br/><a role="button" href="docs/docs-list.html" id="docs">Docs</a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section" id="sub-footer">
+			<div class="container footer-sub">
+		    <div class="row"></div>
+		  </div>
+    </section>
+    <footer class="footer">
+		  <div class="container container-wrapper">
+		    <div class="row">
+		      <div class="container-fluid col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+		        <div class="row">
+		          <p>
+		            <br/>
+								<br/>&copy; Crown copyright
+		            <br/>
+								<br/>Content available under
+		            <a role="button" href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>
+		            , except where otherwise stated.
+		            <br/>
+								<br/>
+		          </p>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</footer>
+		<script>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "balloon") {
+alert('Correct');
+window.open('index.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</script>
+
+	</body>
+</html>

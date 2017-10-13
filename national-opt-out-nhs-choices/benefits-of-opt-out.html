@@ -1,0 +1,480 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Set your data sharing preference - NHS Choices</title>
+    <meta name="description" content="National Opt Out Model - Our Obligation">
+    <link rel="shortcut icon" href="../resources/img/nhs-favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="stylesheet" type="text/css" href="../resources/css/nhs-uk-base.css" media=" screen" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/nhs-uk-print.css" media="print" />
+    <style type="text/css">
+        @import url('../resources/css/nhs-uk-reset.css') screen;
+        @import url('../resources/css/nhs-uk-screen.css') screen;
+        @import url('../resources/css/nhs-uk-generalcontent.css') screen;
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrap">
+
+        <!--- _______________________________ NAV _______________________________ --->
+
+        <div class="topnavwrap">
+
+            <ul class="info-nav">
+
+                <li class="first">
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+
+                <li>
+                    <a href="#">Tools</a>
+                </li>
+
+                <li>
+                    <a href="#">Video</a>
+                </li>
+
+                <li>
+                    <a href="/NHSEngland/appointment-booking/Pages/about-the-referral-system.aspx" onclick="dcsMultiTrack('DCSext.HeaderClickUrl','/NHSEngland/appointment-booking/Pages/about-the-referral-system.aspx','WT.dl','121')">e-Referral Service</a>
+                </li>
+
+                <li>
+                    <a href="http://www.healthunlocked.com/nhschoices/" onclick="dcsMultiTrack('DCSext.HeaderClickUrl','http://www.healthunlocked.com/nhschoices/','WT.dl','121')">Communities</a>
+                </li>
+
+                <li class="last">
+                    <a href="/ipg/Pages/IPStart.aspx" onclick="dcsMultiTrack('DCSext.HeaderClickUrl','/ipg/Pages/IPStart.aspx','WT.dl','121')">IPS</a>
+                </li>
+
+            </ul>
+
+
+            <div class="tab-login anonymous-login">
+                <ul class="translate">
+                    <li class="translate-item"><a href="#" class="translate-text">Translate</a></li>
+                </ul>
+                <ul class="personal-header clear">
+                    <li class="logged-out"><span class="crnr tl"></span><a href="#">Log in</a>&nbsp;or</li>
+                    <li class="create-account"><a href="#">create an account</a>
+                        <span class="crnr tr"></span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--- _______________________________ HEADER _______________________________ --->
+
+        <div class="header">
+            <span class="crnr tl"></span>
+            <div class="heading">
+
+                <p class="choices-logo">
+                    <a href="../index.html" title="Go to NHS Choices homepage"><img src="../resources/img/choices-logo.gif" alt="Go to NHS Choices homepage" width="212" height="35" /></a><span>Your health, your choices</span></p>
+
+            </div>
+
+            <p class="hidden"><strong>Information navigation</strong></p>
+            <div class="searchbar">
+                <form id="gs" method="get" action="/Search/">
+                    <fieldset>
+                        <legend class="hidden">Search entire site</legend>
+                        <div class="search-inner" id="IdSearchBoxContainer">
+                            <div><span class="crnr tl"></span><span class="crnr tr"></span></div>
+                            <div id="search-results-container">
+                                <label for="q"><span class="hidden">Enter a search term: </span><input id="q" name="q" type="text" placeholder="Enter a search term" value="Enter a search term" accesskey="4" maxlength="500" /></label>
+                            </div>
+                            <div class="submit-container">
+                                <div><span class="crnr tl"></span><span class="crnr tr"></span></div>
+                                <div class="submit">
+                                    <div><span class="crnr tl"></span><span class="crnr tr"></span></div>
+                                    <input type="submit" value="Search" />
+                                    <div><span class="crnr bl"></span><span class="crnr br"></span></div>
+                                </div>
+                                <div><span class="crnr bl"></span><span class="crnr br"></span></div>
+                            </div>
+                            <span class="crnr bl"></span><span class="crnr br"></span>
+                        </div>
+                    </fieldset>
+                </form>
+                <script type="text/javascript" src="/includes/jquery-1.11.3.min.js"></script>
+                <script type="text/javascript">
+                    //<![CDATA[
+                    jq1113 = jQuery.noConflict(true);
+                    //]]>
+                </script>
+                <script type="text/javascript" src="/includes/typeahead.bundle.min.jq1113.js"></script>
+                <script type="text/javascript" src="/includes/nhs.typeahead.js"></script>
+            </div>
+
+            <div class="main-nav clear" id="main-navigation">
+                <p class="hidden"><strong>Main navigation</strong></p>
+                <div id="ctl00_Header_mainNavigation">
+                    <ul>
+                        <li class="health-az" id="health-az-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/Conditions/Pages/hub.aspx','WT.dl','121')" href="/Conditions/Pages/hub.aspx"> Health A-Z</a>
+
+                        </li>
+                        <li class="livewell" id="livewell-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/livewell/Pages/Livewellhub.aspx','WT.dl','121')" href="/livewell/Pages/Livewellhub.aspx"> Live Well</a>
+
+                        </li>
+                        <li class="carers" id="carers-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/Conditions/social-care-and-support-guide/Pages/what-is-social-care.aspx','WT.dl','121')" href="/Conditions/social-care-and-support-guide/Pages/what-is-social-care.aspx"> Care and support</a>
+
+                        </li>
+                        <li class="news" id="news-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/News/Pages/NewsIndex.aspx','WT.dl','121')" href="/News/Pages/NewsIndex.aspx"> Health news</a>
+
+                        </li>
+                        <li class="find-services" id="find-services-topnav"><a onclick="dcsMultiTrack('DCSext.HeaderMenuUrlClicked','/service-search','WT.dl','121')" href="/service-search"> Services near you</a>
+                            <div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="ctl00_Header_onlineSurveyInjector" class="survey">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--- _______________________________ CONTENT _______________________________ --->
+
+        <div class="content-wrap clear carers carers-subcategory gsc-subcategory">
+
+            <div class="row pad-tl clear">
+
+                <div class="col five carers-head">
+                    <span>You are here:</span>
+                    <div id="ctl00_PlaceHolderMain_MainContentSubCategory_campaignsBreadCrumbTrail" class="breadcrumbs">
+                        <div class="">
+                            <ul>
+                                <li>
+                                    <a href="#">The NHS in England</a>
+                                </li>
+                                <li>
+                                    <a href="#">The NHS</a>
+                                </li>
+                                <li>
+                                    <a href="#">Records</a>
+                                </li>
+                                <li>
+                                    <a href="#">Your health records</a>
+                                </li>
+                                <li>Your personal information</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h1>Your personal information</h1>
+                </div>
+                <div class="tabs-nav">
+                    <span class="crnr tl"></span><span class="crnr tr"></span>
+                    <div id="ctl00_PlaceHolderMain_MainContentSubCategory_topicHeadings">
+                        <ul class="tabs clear">
+                            <li>
+                                <span><a href="about-health-records.html">About health records</a></span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                            <li>
+                                <span><a href="accessing-records.html">Accessing records</a></span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                            <li>
+                                <span><a href="sharing-your-records.html">Sharing your records</a></span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                            <li>
+                                <span><a href="http://www.nhs.uk/NHSEngland/thenhs/records/nhs-number/Pages/what-is-the-nhs-number.aspx">NHS Number</a></span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                            <li>
+                                <span><a href="programme-message.html">Programme message</a></span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                            <li class="active">
+                                <span class="active-text">Benefits of opt out</span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                            <li>
+                                <span><a href="set-your-preference.html">Set your preference</a></span>
+                                <span class="crnr tl"></span>
+                                <span class="crnr tr"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col five border">
+                    <div id="ctl00_PlaceHolderMain_MainContentSubCategory_articles">
+                        <ul class="sub-nav">
+                            <li class="active last"><span class="active-text"><span class="hidden">healthrecords </span>Benefits of opt out</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pad clear">
+                        <div class="col three-sm">
+
+                            <div class="carers-article">
+
+                                <h2>Benefits of opting out</h2>
+
+                                <div class="carer-image">
+
+                                </div>
+                                <div class="article">
+
+
+
+                                </div>
+                                <div id="g_018FF7825470403DAC4726EEF70F32C8" class="WebPartZone-Vertical">
+
+                                </div>
+                                <div class="bookmark-wrap clear">
+                                    <div class="clear">
+                                        <div class="social-sharing clear">
+                                            <br />
+                                            <p class="share">Share:</p>
+                                            <ul class="share-list">
+                                                <li class="email">
+                                                    <a href="mailto:?subject=Sharing your records&amp;body=I read this on the NHS Choices (http://www.nhs.uk) website and thought you should read it too:
+http%3a%2f%2fwww.nhs.uk%2fNHSEngland%2fthenhs%2frecords%2fhealthrecords%2fPages%2fsharing-your-records.aspx&amp;WT.mc_id=20411" id="ctl00_PlaceHolderMain_MainContentSubCategory_Bookmark1_btnEmail" title="Share this page via email"><img src="../resources/img/email.jpg" alt="Email share" width="16" height="16" /></a>
+                                                </li>
+                                                <li class="twitter">
+                                                    <a title="Share this page via Twitter" href="http://twitter.com/home?status=Sharing+your+records%20-%20http%3a%2f%2fwww.nhs.uk%2fNHSEngland%2fthenhs%2frecords%2fhealthrecords%2fPages%2fsharing-your-records.aspx&amp;WT.mc_id=50411" target="_blank"><img src="../resources/img/twitter.png" alt="Twitter share" width="20" height="16" /></a>
+                                                </li>
+                                                <li class="facebook">
+                                                    <a title="Share this page via Facebook" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.nhs.uk%2fNHSEngland%2fthenhs%2frecords%2fhealthrecords%2fPages%2fsharing-your-records.aspx&amp;t=Sharing+your+records&amp;WT.mc_id=60411" target="_blank"><img src="../resources/img/facebook.gif" alt="Facebook share" width="16" height="16" /></a>
+                                                </li>
+                                            </ul>
+
+                                            <p class="save">Save:</p>
+                                            <ul class="save-list">
+                                                <li class="google">
+                                                    <a title="Save this page to Google Bookmarks" href="https://www.google.com/bookmarks/mark?op=add&amp;bkmk=http%3a%2f%2fwww.nhs.uk%2fNHSEngland%2fthenhs%2frecords%2fhealthrecords%2fPages%2fsharing-your-records.aspx&amp;title=Sharing+your+records&amp;WT.mc_id=30411"
+                                                        target="_blank"><img src="../resources/img/google.gif" alt="Google Bookmarks" width="16" height="16" /></a>
+                                                </li>
+
+                                                <li class="nhsc-save">
+                                                    <a href="/NHSEngland/thenhs/records/healthrecords/Pages/sharing-your-records.aspx?savefavourite=true" id="ctl00_PlaceHolderMain_MainContentSubCategory_Bookmark1_btnSave" title="Save this page to your NHS Choices account"><img src="../resources/img/nhsc-save.jpg" alt="NHS Choices Saved Pages" width="16" height="16" /></a>
+                                                </li>
+
+                                            </ul>
+
+                                            <p>Print:</p>
+                                            <ul class="print-list"><img src="../resources/img/print.gif" /> </ul>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="review-date">
+
+                                    <p>Page last reviewed: <span class="review-pad">22/06/2016</span></p>
+
+                                    <p>Next review due: <span>22/06/2019</span></p>
+
+                                    <div style="display:none">
+
+                                    </div>
+
+                                    <div style="display:block">
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="col two-sm last pad-t">
+                            <div id="g_6B0CF9CA2883416CB7050C129C6B9A5A" class="WebPartZone-Vertical">
+
+                                <div id="ctl00_SPWebPartManager1_g_8d350478_9dea_416d_9b18_150992cb3bd1">
+                                    <div class="panel clear info">
+                                        <div class="pad-rl"><span class="crnr tl"></span><span class="crnr tr"></span><span class="icn info"></span>
+                                            <div class="panel-top">
+                                                <h2>Keeping your online health and social care records safe and secure</h2>
+                                                <p>Guidance is available to help you understand what an electronic health and care record is, how you can access it, who you may want to share it with, and how to perform these actions securely. This guidance
+                                                    was created by the Department of Health, working in collaboration with <a href="http://www.bcs.org/category/17485" title="External website">BCS, the Chartered Institute for IT</a>, in 2013. </p>
+                                                <p>Download the patient guidance booklets:</p>
+                                                <ul>
+                                                    <li><a href="/NHSEngland/thenhs/records/healthrecords/Documents/PatientGuidanceBooklet.pdf" title="Opens in a new window" target="_blank">Patient guidance booklet (PDF, 394kb)</a> </li>
+                                                    <li><a href="/NHSEngland/thenhs/records/healthrecords/Documents/PatientGuidanceSummaryA4.pdf" title="Opens in a new window" target="_blank">Patient guidance summary A4 (PDF, 129kb)</a> </li>
+                                                    <li><a href="/NHSEngland/thenhs/records/healthrecords/Documents/PatientGuidanceSummaryA5.pdf" title="Opens in a enw window" target="_blank">Patient guidance summary A5 (PDF, 125kb)</a> </li>
+                                                </ul>
+                                            </div>
+                                        </div><span class="crnr bl"></span><span class="crnr br"></span></div>
+                                </div>
+                                <div id="ctl00_SPWebPartManager1_g_402d3770_cbe5_4dd8_b6c5_9906715123c6">
+                                    <div class="panel clear links">
+                                        <div class="pad-rl"><span class="crnr tl"></span><span class="crnr tr"></span><span class="icn links"></span>
+                                            <div class="panel-top">
+                                                <h2>Useful links</h2>
+                                                <p><strong>NHS Choices links</strong></p>
+                                                <ul>
+                                                    <li><a href="/service-search">Find services</a> </li>
+                                                    <li><a href="/NHSEngland/thenhs/records/nhs-number/Pages/what-is-the-nhs-number.aspx">The NHS Number</a> </li>
+                                                </ul>
+                                                <p><strong>External links</strong></p>
+                                                <ul>
+                                                    <li><a href="https://ico.org.uk/">Information Commissioner's Office (ICO)</a> </li>
+                                                    <li><a href="https://www.gov.uk/government/publications/the-nhs-constitution-for-england">NHS Constitution</a> </li>
+                                                    <li><a href="http://digital.nhs.uk/home">NHS Digital</a> </li>
+                                                </ul>
+                                            </div>
+                                        </div><span class="crnr bl"></span><span class="crnr br"></span></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+        </div>
+
+        <!--- _______________________________ FOOTER _______________________________ --->
+
+        <div class="footer clear">
+
+            <div class="footer-tab-wrap">
+                <ul class="footer-tabs clear">
+                    <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#footer-tab1"><span class="crnr tl"></span><span class="footer-title"><div>NHS Choices information</div></span><span class="crnr tr"></span></a></li>
+                    <li><a href="#footer-tab2"><span class="crnr tl"></span><span class="footer-title"><div>Choices e-newsletters</div></span><span class="crnr tr"></span></a></li>
+                    <li><a href="#footer-tab3"><span class="crnr tl"></span><span class="footer-title"><div>Your pages</div></span><span class="crnr tr"></span></a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-wrap">
+                <div class="footer-content">
+                    <div id="footer-tab1" class="footer-tab1 footer-tab-content clear">
+                        <div id="ctl00_Footer_ucPersonalisationFooter_SitePolicies" class="footer-list">
+
+                            <h2>Site policies</h2>
+                            <ul class="info">
+                                <li><a href="#">Terms and conditions</a></li>
+                                <li><a href="#">Editorial policy</a></li>
+                                <li><a href="#">Comments policy</a></li>
+                                <li><a href="#">Syndication</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">Cookies policy</a></li>
+                                <li><a href="#">Links policy</a></li>
+                                <li><a href="#">Accessibility </a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+
+
+                        </div>
+                        <div id="ctl00_Footer_ucPersonalisationFooter_OtherNHSSites" class="footer-list">
+
+                            <h2>Other NHS sites</h2>
+                            <ul class="info">
+                                <li><a href="#">My NHS</a></li>
+                                <li><a href="#">NHS Scotland</a></li>
+                                <li><a href="#">NHS Northern Ireland</a></li>
+                                <li><a href="#">NHS Wales</a></li>
+                                <li><a href="#">NHS Jobs</a></li>
+                                <li><a href="#">Health Careers</a></li>
+                                <li><a href="#">Department of Health</a></li>
+                                <li><a href="#">NHS England</a></li>
+                            </ul>
+
+
+                        </div>
+                        <div id="ctl00_Footer_ucPersonalisationFooter_AbouttheNHS" class="footer-list">
+
+                            <h2>About the NHS</h2>
+                            <ul class="info">
+                                <li><a href="#">The NHS in England</a></li>
+                                <li><a href="#">About NHS services</a></li>
+                                <li><a href="#">NHS Friends and Family Test</a></li>
+                                <li><a href="#">Quality accounts</a></li>
+                                <li><a href="#">NHS e-Referral Service</a></li>
+                                <li><a href="#">Find authorities and trusts</a></li>
+                                <li><a href="#">Healthwatch England</a></li>
+                                <li><a href="#">The NHS complaints procedure</a></li>
+                            </ul>
+
+
+                        </div>
+                        <div id="ctl00_Footer_ucPersonalisationFooter_OtherChannels" class="footer-list">
+
+                            <h2>Other channels</h2>
+                            <ul class="info">
+                                <li><a href="#">Follow us on Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">YouTube</a></li>
+                                <li><a href="#">Video library</a></li>
+                                <li><a href="#">Links library</a></li>
+                            </ul>
+
+
+                        </div>
+                        <div id="ctl00_Footer_ucPersonalisationFooter_Languages" class="footer-list">
+
+                            <h2>Other Languages</h2>
+
+                            <span class="language-intro">Visit our </span><span class="language-intro"><a href="#">language section</a> for more health websites in foreign languages.</span>
+
+                        </div>
+                        <div id="ctl00_Footer_ucPersonalisationFooter_Contact" class="footer-list">
+
+                            <h2>Contact NHS Choices</h2>
+                            <ul class="info">
+                                <li><a href="#">Choices helpdesk</a></li>
+                                <li><a href="#">Freedom of Information requests</a></li>
+                                <li><a href="#">Working for NHS Choices</a></li>
+                                <li><a href="#">Request content evidence sources</a></li>
+                                <li><a href="#">NHS Direct legacy enquiries</a></li>
+                                <li><a href="#">Press enquiries</a></li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                    <div class="footer-logos clear">
+                        <ul>
+                            <li><span class="hidden">&ndash;</span>
+                                <a href="http://www.gov.uk/"><img src="../resources/img/gov-uk.gif" alt="Link to gov.uk &ndash; The new place to find government services and information" class="gov-uk" /></a>
+                            </li>
+                            <li><span class="hidden">&ndash;</span>
+                                <a href="/aboutNHSChoices/aboutnhschoices/Aboutus/Pages/the-information-standard.aspx"><img src="../resources/img/information-standards.gif" alt="The Information Standard - Certified member" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

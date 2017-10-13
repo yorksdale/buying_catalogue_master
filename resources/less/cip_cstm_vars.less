@@ -1,0 +1,32 @@
+// Typography --------------------------------------------------------------------------------------------------------
+@fs-lg-base: 19px;
+@fs-sm-base: 16px;
+@fs-xs-base: 14px;
+
+//Base Font
+@fs-base: 1rem; //Base font size
+@fs-lg: @fs-h3; //For lead paragraphs, labels etc
+@fs-footer: 0.7368rem; //For footer text
+
+//Headings
+@fs-h1: 2.526rem; // ~48px @ lg
+@fs-h2: 1.895rem; // ~36px @ lg
+@fs-h3: 1.263rem; // ~24px @ lg
+@fs-h4: 1rem; // ~19px @ lg
+
+//Other
+@result-lg-h1: 4.526rem;
+@result-sm-h1: 3.158rem;
+
+//media queries to adjust font size to device size
+@media (max-width: @screen-xs) {
+    html{font-size: @fs-xs-base;}
+}
+
+@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+    html{font-size: @fs-sm-base;}
+}
+
+@media (min-width: @screen-sm) {
+    html{font-size: @fs-lg-base;}
+}

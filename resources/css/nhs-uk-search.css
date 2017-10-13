@@ -1,0 +1,379 @@
+/*/-------------GS------------------------/*/
+.content-wrap a {color:#005ca8;}
+.content-wrap h1 {font-size:3em; line-height:1em; margin-bottom:2em; margin-top:2em}
+.search-nav {margin-left:-2em; position:relative; width:19.3em;}
+.one h2 .crnr {width:4px; height:4px; background:transparent url(/img/homepage/tab-corners.gif) no-repeat scroll 0 0;}
+.panel-back-col, .postcode-search {background-color:#f2f2f2;}
+.three h2 {font-size:1.8em; margin:1em 0 0.5em 0;}
+.three .tips h3 {font-size:1.2em; font-weight:bold; margin-top:0.5em;}
+.three .tips ul {list-style:square; margin-top:0.2em;}
+.three .tips ul li {margin-left:1.4em;}
+.three .external h3 {font-size:1.8em; margin:0.5em 0 0.5em 0;}
+.three .external .search-nav {width:auto;}
+.three .external .search-nav dt {padding:0.4em 0 0 0;}
+.three .external .search-nav dd {padding:0 0 0.4em 0;}
+.search-nav dt {padding:0.7em 0.7em 0 1em; font-weight:bold; }
+.search-nav dt.selected, .search-nav dd.selected {background-color:#f3f3f3; color:#585858;}
+.search-nav dt a {color:#005CA8; text-decoration:underline;}
+.search-nav dt a:hover, .search-nav dt a:focus {text-decoration:none;}
+.search-nav dt.nhschoices a {color:#6e6e6e;}
+.search-nav dt.medicaladvice a {color:#053e77;}
+.search-nav dt.servicedirectories a {color:#900;}
+.search-nav dt.healthchoices a {color:#069;}
+.search-nav dt.livewell a {color:#690;}
+.search-nav dt.caring a {color:#339;}
+.search-nav dt.headlines a {background-color:transparent; color:#585858;}
+.search-nav dd {padding:0 0.7em 0.7em 1em; }
+.search-nav dd.selected {padding:0 0.7em 1.3em 0.7em; background:#f3f3f3;}
+.search-nav dd.selected strong {font-weight:normal;}
+.services-near h2 {margin:0 0 0.7em 0;}
+.search-pane {position:relative; margin-bottom:1em;}
+.search-pane .crnr {background-image:url(http://www.nhs.uk/img/search/search-pane-crnrs.gif);}
+.search-pane .border {height:1%; background:#fff;}
+.search-pane ul {list-style-position:outside; list-style:none;}
+.search-pane ul li {padding:0; margin:0 0 1.5em 0;z-index:-10;}
+.search-pane ul.results-children {padding:1em 0 0 6em;border:none;}
+.search-pane ul.results-children li {margin-bottom:1em;}
+.search-pane ul li.child-results-trig {margin:0 0 1.5em 0; padding:0;}
+.search-pane ul li.child-results-trig a {background:#fff url(/img/scorecards/arrow-grey-right.gif) left no-repeat; padding-left:0.9em;}
+.search-pane ul li.child-results-trig a.active {background:#fff url(/img/scorecards/arrow-grey-down.gif) left no-repeat; padding-left:1.1em;}
+.services-near {background-color:#f2f2f2;margin-bottom:0.2em;padding-top:0.5em;}
+.hub-search-box .submit {margin-left:1.4em;}
+
+.no-results {margin:4em 0;}
+.no-results div {float:left;}
+#search-no-results {float:left;}
+.search-form .submit {margin:0.6em 0 0 0;}
+.search-form .submit a {color:#fff; background:transparent url(/img/buttons/btn-search.gif) 95% no-repeat;}
+.search-form .submit input.search {background-position:95%;}
+.search-form input.text-field {background:transparent; float:left; margin-right:0.5em; font-weight:bold; font-size:1.4em; width:14em; border:1px solid #ccc; padding:0.4em;color:#000;}
+.related-searches {padding:1em 0;}
+.related-searches dt {font-weight:bold;}
+.related-searches dt, .related-searches dd {float:left; margin-right:0.3em; width:auto;}
+.related-searches dd a {white-space:nowrap;}
+.did-you-mean {font-size:1.4em; color:#900; font-weight:bold;}
+.did-you-mean a {font-weight:normal; font-style:italic;}
+.services-near dt {font-weight:bold; font-size:1.4em; color:#900;}
+.services-near dd {float:left; margin-right:0.3em; width:auto;}
+.speciality dt {background:transparent; color:#585858; margin-bottom:1em;}
+.speciality dt strong {color:#005ca8;}
+.speciality .hub-search {float:left; width:auto;}
+.speciality .hub-search input {padding:.2em; width:17em;}
+.speciality .hub-submit {display:inline; margin-left:1em; margin-top:.2em; width:auto;}
+.speciality .hub-submit input {background:#000 url(/img/buttons/btn-arrow.gif) right no-repeat; padding:0 1.6em .2em .5em;}
+.speciality .remember-postcode {display:inline; font-size:.8em; position:relative; top:-.5em;}
+.chk-postcode input, .chk-postcode label {float:left;}
+.chk-postcode label {margin-left:0.5em;}
+.services-near h2 strong {color:#006EBD;}
+.fs-result .icon, .media-result .icon {width:4em; height:4em; display:block; float:left; background-position:top left; background-repeat:no-repeat;}
+.media-result .icon {background-image:url(http://www.nhs.uk/img/search/icns.gif);}
+.audio .icon {background-position:0 0;}
+.tools .icon {background-position:0 -100px;}
+.video .icon {background-position:0 -50px;}
+.pct .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-pct-new.gif);}
+.pct .mental-health-trust {background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-mental-health-trust.gif) left no-repeat;}
+.pct .acute-trust {background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-acute-trust.gif) left no-repeat;}
+.pct .independent-sector {background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-independent-sector.gif) left no-repeat;}
+.pct .care-trust {background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-care-trust.gif) left no-repeat;}
+.pct .ambulance-trust {background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-ambulance-trust.gif) left no-repeat;}
+.pct .national-service { background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-nhsdirect.jpg) no-repeat 0 0.8em; }
+.pct .health-care-trust { background:url(http://www.nhs.uk/img/find-services/hub/hub-icon-hct.gif) no-repeat left top;}
+.hospital .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-hospital.gif);}
+.gp .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-gp.gif);}
+.dentist .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-dentist.gif);}
+.pharmacy .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-pharmacy.gif);}
+.urgent .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-urgent-care.gif);}
+.optician .icon { background-image:url(http://www.nhs.uk/img/find-services/hub/hub-icon-optician.gif);}
+.fs-result .details {width:91%; float:left;}
+.fs-result .ratings {width:16em; float:right;}
+.search-pane ul.tick-list li {background:#fff url(/img/find-services/listings/tick-list.gif) no-repeat scroll 0 0; min-height:21px; padding:0 0 0.6em 27px; border:0;}
+.search-pane ul.tick-list li.negative {background:none; padding:0 0 0.6em 27px;}
+.search-pane .refine {padding:0.5em 0 1em 0;}
+.search-pane .refine li {background:none; border:0; float:left; padding:0 1em 0.5em 0; width:auto;}
+.search-pane .refine li a {background:transparent; color:#585858; display:block;}
+.search-pane .gp .metric ul, .search-pane .dentist .metric ul{list-style-position:inside; list-style-type:disc;}
+.search-pane .gp .metric ul li, .search-pane .dentist .metric ul li {border:0; padding:0;}
+.search-pane.google .link-url {color:#005ca8; font-weight:bold; display:block;}
+.search-pane.google ul li span.indent {padding:0 0 0 6em; display:block;}
+.search-pane.google .nhsc-recom {border:1px solid #005ca8; padding:1em 1em 0 1em; margin:1em;}
+.search-pane.google .nhsc-recom h2 {margin-bottom:1em; font-size:1.9em;}
+.search-pane.google .nhsc-recom h3 {margin-bottom:0.5em; font-size:1.7em;}
+.search-pane.google .nhsc-recom h3 a {font-weight:normal;}
+.search-pane.google .nhsc-recom p {color:#005ca8; font-size:1.2em; font-weight:bold; padding:0;}
+.search-pane.google .nhsc-recom ul li {float:none; margin:0 0 1.5em 0; padding:0; width:auto;}
+.search-pane .no-results-wrap select {clear:none; float:left; margin-right:1em; width:18em;}
+.directory h1 .searched-for {color:#005ca8;}
+.content-wrap.directory .filter-bar {width:100%; display:block; height:10px; padding:0; margin:0.2em 0 0 0; background:#b2b2b2;}
+.content-wrap.directory .filter-value {background:#ff6600; display:block; width:0%; height:10px;}
+.content-wrap.directory .filter-value.five {width:5%;}
+.content-wrap.directory .filter-value.ten {width:10%;}
+.content-wrap.directory .filter-value.fifteen {width:15%;}
+.content-wrap.directory .filter-value.twenty {width:20%;}
+.content-wrap.directory .filter-value.twentyfive {width:25%;}
+.content-wrap.directory .filter-value.thirty {width:30%;}
+.content-wrap.directory .filter-value.thirtyfive {width:35%;}
+.content-wrap.directory .filter-value.forty {width:40%;}
+.content-wrap.directory .filter-value.fortyfive {width:45%;}
+.content-wrap.directory .filter-value.fifty {width:50%;}
+.content-wrap.directory .filter-value.fiftyfive {width:55%;}
+.content-wrap.directory .filter-value.sixty {width:60%;}
+.content-wrap.directory .filter-value.sixtyfive {width:65%;}
+.content-wrap.directory .filter-value.seventy {width:70%;}
+.content-wrap.directory .filter-value.seventyfive {width:75%;}
+.content-wrap.directory .filter-value.eighty {width:80%;}
+.content-wrap.directory .filter-value.eightyfive {width:85%;}
+.content-wrap.directory .filter-value.ninety {width:90%;}
+.content-wrap.directory .filter-value.ninetyfive {width:95%;}
+.content-wrap.directory .filter-value.hundred {width:100%;}
+.search-pane.google .no-results-wrap h1 {font-size:2em; line-height:1.4em;}
+.search-pane.google .no-results-wrap .tips {margin:0; padding:2em 0 0 0;}
+.search-pane.google .no-results-wrap .tips h3 {font-size:1.4em;}
+.search-pane.google .no-results-wrap .tips ul {padding:2em 0 2em 4em;}
+.search-pane.google .no-results-wrap .tips ul li {list-style-type:disc; padding:0; margin:0 0 1em 0;}
+.search-pane.row.pad.clear .speciality .hub-search-box {width:63%;}
+.search-pane.row.pad.clear .speciality .remember-postcode label {float:none; font-weight:normal; margin:-0.2em 0 0 0;}
+.search-pane.row.pad.clear .speciality .remember-postcode input {margin:-0.5em 0 0 1em;}
+.search-pane.row.pad.clear .speciality .submit {display:inline; float:right; margin-top:-1em;}
+.search-pane.row.pad.clear .speciality h2 {margin-bottom:1em; font-size:1.6em;}
+.search-pane.row.pad.clear .speciality h2 strong {color:#005ca8;}
+.true-results ul.results-children li {padding:0; border-top:none;}
+.true-results .fs-result .icon, .media-result .icon {display:inline;}
+.true-results .details {float:left;width:45em;}
+.true-results .results-children .details {width:38.9em;}
+.true-results ul.results-children li {margin-bottom:0;width:43em;}
+.true-results ul.results-children .organisation .metric {width:9.1em;}
+.true-results ul.results-children, .pagination ul, #pred-terms, #pred-terms ul {border:none;}
+.true-results ul.results-children {width:43em;}
+.true-results .no-results {margin-bottom:2em; float:left;}
+.true-results .number-of-results {width:21em;}
+#pred-terms li {border-top:none; float:none; padding:0;}
+.directory .search-filter {list-style-type:none; width:18.9em; margin:0 0 0 -2em; padding:1em 0 0 0;}
+.directory .search-filter li {list-style-type:none; list-style-position:outside; padding:1em 1em 1em 1em; margin:0 0 0.5em 0; font-weight:bold;}
+.directory .search-filter li.selected {background:#f3f3f3;}
+.directory .search-filter li a {font-weight:bold; padding:0; display:block;}
+.column-main .searched-for {color:#005CA8;}
+.column-main .column-main-right .pad {padding:0 1em 1em 1em;}
+.links-he{padding:2em 0 1em 0;}
+.column-main-left {float:left;background-color:#f2f2f2;padding:1em 1em 1em 1em;position:relative;margin-right:1em;min-width:24.3em;z-index:3;}
+.column-main-left p {font-size:1.3em;margin-top:1em;}
+.column-main-left .crnr, .health-explorer-row .crnr {background-image:url(/images/search/search-pane-crnrs.gif);}
+.column-main-left h2 {font-size:1.4em;}
+.column-main-right {float:left; width:66em;}
+.column-main-right .pad-tbl {padding:0 1em 0 1em;}
+.centre {display:block;margin-left:auto;margin-right:auto}
+
+/*--search results filters--*/
+.results-filter {background-color:#fff; border:1px solid #ccc; min-width:23.6em; padding:1.5em 0em;float:left;}
+.column-main-left .tabs-nav .crnr {background-image:url(/images/search/search-pane-crnrs-grey.gif);}
+.column-main-left .tabs-nav .inactive .crnr {background-image:url(/images/search/search-pane-crnrs-blue-solid.gif); display:block; width:4px; height:4px;}
+.column-main-left ul.tabs li.active {border-color:#ccc; color:#0072b8;background-color:#fff; bottom:-1px;}
+.column-main-left ul.tabs li.inactive {background:#0072b8; bottom:-1px;}
+.column-main-left ul.tabs li.inactive input {bottom:-4px; font-size:1em; height:auto; line-height:normal; padding:0 .2em .2em .2em;}
+.column-main-left ul.tabs li.inactive input:hover {text-decoration:underline;}
+.column-main-left .tabs-nav {padding:1em 0 0 0;}
+.column-main-left ul.tabs li.active .crnr, .column-main-left ul.tabs li.inactive .crnr {width:4px; height:4px; position:absolute; top:-3px; display:block;}
+.column-main-left ul.tabs li.active .tr {right:-3px;}
+.column-main-left ul.tabs li.active .tl {left:-3px; }
+.column-main-left ul.tabs li.inactive .tr {right:-2px; top:-1px;}
+.column-main-left ul.tabs li.inactive .tl {left:-2px; top:-2px; }
+.column-main-left .tabs-nav .crnr{position:absolute; width:4px; height:4px;}
+.column-main-left .tabs-nav .tl{left:0; top:0; background-position:0 0;}
+.column-main-left .tabs-nav .tr{right:-2px; top:-2px; background-position:right top;}
+.filters, .amount {font-size:1.3em;}
+.filters {float:left;padding-left:0.7em;}
+.amount {float:right; text-align:right;padding-right:0.6em;}
+.all-results-list {margin:0.8em 0 2.2em 0em;list-style-type:none;font-weight:bold;padding:0;float:left;clear:both;width:100%;}
+.all-results-list a {font-weight:bold;text-decoration:none;display:inline;}
+.all-results-list li {list-style-position:outside;padding-left:0.7em;padding-right:0.7em;}
+.all-results-text {display:inline;float:left;}
+
+  /*--postcode search panel 100% size--*/
+  .postcode-search-panel-100 {float:left;width:100%;}
+  .postcode-search-panel-100 h2, .postcode-search-panel-50 h2 {font-size:1.4em;margin-top:0.2em;}
+  .postcode-search-panel-100 .speciality .hub-submit {float:right;}
+  .postcode-search-panel-100 .hub-search-box {width:78%;}
+  .postcode-search-panel-100 .chk-postcode label {font-size:1.5em;}
+  .postcode-search-panel-100 .remember-postcode .chk-postcode {margin-left:1em;}
+  /*--end of postcode search 100% size--*/
+
+  /*--postcode search panel 50% size--*/
+  .postcode-search-panel-50 {float:left;width:47.25%;margin-right:2%;}
+  .postcode-search-panel-50 .speciality .hub-search input {width:23.5em;}
+  .postcode-search-panel-50 .speciality .hub-submit {float:left;margin:0;}
+  .postcode-search-panel-50 .speciality .hub-search-box .submit {float:left;margin-left:0;}
+  .postcode-search-panel-50 .speciality .remember-postcode {float:left;clear:left;margin-top:2em;font-size:1.1em;}
+  .postcode-search-panel-50 .speciality .remember-postcode label {margin-top:-0.2em;}
+  .postcode-search-panel-50 .search-pane .submit {margin-top:1em;}
+  .column-main .column-main-right .postcode-search-panel-50 .pad {padding:0 0.5em 0.2em 1em;}
+  /*--end of postcode search 50% size--*/
+
+/*--end of search results filters--*/
+
+/*--health explorer page--*/
+.health-header h1 {margin-bottom:0.2em;}
+.health-header {padding:0 2em;}
+.explorer-header {color:#1374a8;font-style:italic;}
+.health-p-1 {width:50%;float:left;margin-top:0.2em;}
+.health-p-2 {width:50%;float:right;text-align:right;margin-top:0.2em;}
+.health-p-3 {padding:0 1em 0 1em;float:left;}
+.flash-link {float:left;width:93.5em;margin-bottom:1em;}
+#myAlternativeContent {float:left; padding-left:1em;}
+.health-explorer-header {float:left; width:20em;}
+.health-explorer-header p {margin-top:1em;}
+.health-explorer-header h2 {color:#0775B4;font-size:1.8em;}
+.health-explorer-data {float:left;width:73.5em;}
+#repeater {float:left;width:73em;}
+.health-explorer-con, .health-explorer-row {float:left;}
+.health-explorer-previous {padding-left:20.6em; clear:both;}
+.health-explorer-previous h2 {font-size:1.2em;}
+.health-explorer-previous ul {margin-top:0.5em;list-style:none;}
+.health-explorer-previous ul li {margin-bottom:0.5em;}
+.health-explorer-previous ul li a {padding-left:1em; background:url(../images/search/health-explorer-list-triangle.gif) left no-repeat;}
+.health-explorer-previous a {color:#0775B4;}
+.health-explorer-con h2 {font-size:1.2em;}
+.health-explorer-row {margin-bottom:2em;background-color:#f2f2f2;position:relative;padding:1em 1.7em 1em 1.7em;width:95%;}
+.health-explorer-row ul {list-style:none;}
+.health-explorer-row h3 {font-size:1.4em;}
+.health-explorer-column-1 {float:left; width:48%;padding-right:2em;}
+.health-explorer-column-2 {float:left; width:49.1%;}
+.health-explorer-term-item, .health-explorer-search-item {float:left;width:46.5%;margin-bottom:0.4em;}
+.health-explorer-term-item {padding-right:2em;}
+.overide-main .column-main {padding:1em 0 1em 0;width:100%;}
+.health-explorer-row a {color:#0775B4;}
+#toolComponent {padding-left:1em;}
+/*--end of health explorer page--*/
+
+/*--no results--*/
+.no-results-pane {width:76em;}
+.no-results-pane .border {background-color:#F3F3F3 ! important;border:none;padding:1em;}
+.no-results-wrap {background-color:#fff;border:1px solid #b2b2b2;padding:2em;}
+.no-results-wrap h1 {font-size:2em;margin:0 0 2em 0;}
+.no-results-wrap h2 {font-size:1.4em;margin:0 0 1em 0;color:#585858;font-weight:normal;}
+.no-results-pane ul {list-style-type:disc;margin:0 0 0 4em;padding:0;}
+.no-results-pane a {color:#005CA8;}
+.no-results-pane #results, .search-no-results-parent #results {clear:left;background-color:#fff;border:1px solid #ccc;width:20.7em; position:absolute; top:2.9em; z-index:99;}
+.no-results-pane #results ul, .search-no-results-parent #results ul {font-weight:bold;padding:0.3em 0 0.3em 0;text-decoration:none;list-style:none;text-align:left;margin:0;padding-bottom:1.5em;}
+.no-results-pane #results ul li, .search-no-results-parent #results ul li {line-height:1.4em;margin-bottom:0; width:auto;}
+.no-results-pane #results ul a, .search-no-results-parent #results ul a {color:#585858;text-decoration:none;display:block;padding:0.3em 0.3em 0.3em 1em;}
+.no-results-pane #results ul a:hover, .search-no-results-parent #results ul a:hover, .no-results-pane #results .selected, .search-no-results-parent #results .selected {text-decoration:underline;background-color:#f2f2f2;}
+.no-results-pane #results p, .search-no-results-parent #results p {bottom:0;float:right;padding:0.2em 0.5em 0.5em 0;position:absolute;right:0;}
+.no-results-pane #results p a, .search-no-results-parent #results p a {color:#585858;cursor:pointer;font-weight:bold;text-decoration:none;}
+.no-results-pane #results p a:hover, .search-no-results-parent #results p a:hover {text-decoration:underline;}
+#NoResultsContainer {padding-left:22em;}
+#NoResultsContainer input {position:relative;}
+.no-res-health-ex-1 {border:1px solid #DEDEDE;padding:1em;position:relative;width:30.2em;margin:0! important;list-style-type:none! important;}
+.no-res-health-ex-1 li {list-style-type:none! important;}
+.no-res-health-ex-2 {margin-left:1em! important;margin-top:1em ! important;}
+.no-res-health-list-1, no-res-health-list-1a {list-style-type:none! important;}
+.no-res-health-list-1 {margin-left:-1.2em! important;}
+.no-res-health-list-1a {height:3em;}
+.no-res-health-list-2 {z-index:0! important;padding:0 1em 0 1em ! important;margin:2em 0 0 0! important;}
+.no-res-health-list-bottom {height:auto! important;margin-bottom:0 ! important;}
+.no-res-health-list-1 .health-explorer-teaser-cap {height:3.5em;}
+.no-results #search-no-results {position:relative; z-index:100;}
+/*--end of no results--*/
+
+/*--GSA search results--*/
+.true-results ul.results-children li .fs-result.organisation ul.address li{ width:38em }
+.fs-result.organisation ul.address li {background:none}
+
+/* new search design */
+.column-main {background:#fff; padding:3em 1em 1em 3em;}
+.main-results {width:94.5em;}
+.main-results .four {border-right:1px solid #e7e7e7; width:74.2em;}
+.main-results .four .number-of-results {margin-bottom:2em;}
+.main-results .postcode-search, .main-results .services-near {background:#eff4fa; margin-bottom:2em; padding:2em; width:52.9em;}
+.main-results .postcode-search label, .main-results .services-near h2 {display:block; font-weight:bold; font-size:1.4em; margin-bottom:1em;}
+.main-results .postcode-search label span {color:#005ca8;}
+.main-results .postcode-search select {float:left; margin:0 1em 0 0; padding:.1em .2em; width:18em;}
+.main-results .postcode-search select option {padding:.1em .2em;}
+.main-results .postcode-search .submit, .main-results .services-near .submit {border:0; margin:0; position:relative;}
+.main-results .postcode-search .submit .crnr, .main-results .services-near .submit .crnr {background-image:url(http://www.nhs.uk/img/modules/sprite-module.gif); height:3px; width:3px;}
+.main-results .postcode-search .submit .tl, .main-results .services-near .submit .tl {background-position:0 -811px;}
+.main-results .postcode-search .submit .tr, .main-results .services-near .submit .tr {background-position:-3px -811px;}
+.main-results .postcode-search .submit .bl, .main-results .services-near .submit .bl {background-position:0 -814px;}
+.main-results .postcode-search .submit .br, .main-results .services-near .submit .br {background-position:-3px -814px;}
+.main-results .postcode-search .submit input, .main-results .services-near .submit input {background:#7a0211 url(/img/modules/sprite-module.gif) 0 -817px repeat-x; border:0; color:#fff; font-size:1.4em; height:1.8em; line-height:normal; margin:0; padding:0 .8em .2em .8em;}
+.main-results .postcode-search .submit input:hover, .main-results .postcode-search .submit input:focus, .main-results .postcode-search .submit input:active, .main-results .services-near .submit input:hover, .main-results .services-near .submit input:focus, .main-results .services-near .submit input:active {background:#ba031b url(/img/modules/sprite-module.gif) 0 -881px repeat-x; text-decoration:none;}
+.main-results .services-near .hub-search {display:inline; float:left;}
+.main-results .services-near .hub-search input { margin-right:1em; padding:.2em; width:18em;}
+.main-results .services-near .hub-submit, .main-results .services-near .submit-wrap, .main-results .services-near .submit-container {display:inline;}
+.main-results .services-near .remember-postcode {clear:left; margin-top:1em;}
+.main-results .one {margin-right:0;}
+.main-results .health-explorer-panel {background:#ebebeb; border-left:1px solid #cdcdcd; border-right:1px solid #cdcdcd; padding:.4em 1em; position:relative;}
+.main-results .panel-crnrs {background:#ebebeb; border:1px solid #cdcdcd; border-bottom:0; height:6px; position:relative;}
+.main-results .panel-crnrs-bottom {border-top:0; border-bottom:1px solid #cdcdcd;}
+.main-results .panel-crnrs .crnr {background-image:url(http://www.nhs.uk/img/search/crnr-grey-bordered.gif); height:6px; width:6px;}
+.main-results .panel-crnrs .tl {left:-1px; top:-1px;}
+.main-results .panel-crnrs .tr {right:-1px; top:-1px;}
+.main-results .panel-crnrs .bl {bottom:-1px; left:-1px;}
+.main-results .panel-crnrs .br {bottom:-1px; right:-1px;}
+.main-results .health-explorer-panel p {color:#1866b5; font-size:1.1em; margin-top:1em;}
+.main-results .health-explorer-panel ul {color:#fb6c25; list-style:disc inside none;}
+.main-results .health-explorer-panel li {margin:0;}
+.main-results .health-explorer-panel li a {color:#1866b5; font-size:.9em; text-decoration:none;}
+.main-results .health-explorer-panel li a:hover, .main-results .health-explorer-panel li a:focus, .main-results .health-explorer-panel li a:active {text-decoration:underline;}
+.main-results .related-searches {background:#eff4fa; clear:left; margin-bottom:2em; padding:1.5em 2em; width:67em;}
+.main-results .related-searches p {font-size:1.4em; font-weight:bold;}
+.main-results .related-searches ul {list-style:none; list-style-position:outside;}
+.main-results .related-searches ul li {float:left; margin-bottom:.5em; margin-right:4%; width:45%;}
+.main-results .related-searches ul li a {color:#0064b7; text-decoration:none;}
+.main-results .related-searches ul li a:hover, .main-results .related-searches ul li a:focus, .main-results .related-searches ul li a:active {text-decoration:underline;}
+.main-results .related-searches ul li a span {font-weight:bold;}
+/* pagination */
+.main-results .four .pagination ul {list-style:none; padding:0; width:auto; margin:0;font-size:1.1em;}
+.main-results .four .pagination ul li {border:0; background:none; padding:0 0.2em; float:left; width:auto; color:#005ca8;clear:none;}
+.main-results .four .pagination ul li.current-page {font-weight:bold;}
+.main-results .four .pagination ul li a {background-color:transparent; color:#585858; font-weight:normal;}
+.main-results .four .pagination ul li.prev a, .main-results .three .pagination ul li.next a {color:#005ca8; text-decoration:none;}
+.main-results .four .pagination ul li.prev a:hover, .main-results .three .pagination ul li.prev a:focus, .main-results .three .pagination ul li.next a:hover, .search-pane .pagination ul li.next a:focus {text-decoration:underline;}
+.main-results .four .pagination ul li.prev.disabled, .main-results .three .pagination ul li.next.disabled {color:#585858;}
+/* results */
+.main-results ul {list-style-position:outside; list-style:none;}
+.main-results ul li {padding:0; margin:0 0 1.5em 0;}
+.main-results ul.results-children {padding:1em 0 0 6em;border:none;}
+.main-results ul.results-children li {margin-bottom:1em;}
+.main-results  h2 {background:transparent; color:#0072b8; font-size:1.2em; font-weight:normal; margin-bottom:.2em; margin-top:0;}
+.main-results  h2 a {background:transparent; color:#0072b8; font-weight:bold; text-decoration:none;}
+.main-results  h2 a:hover, .main-results  h2 a:focus, .main-results  h2 a:active {text-decoration:underline;}
+.main-results ul.healthaz-related {color:#fb6c25; list-style:disc inside none; margin:0 5em 1.5em 2em; margin-right:5em;}
+.main-results ul.healthaz-related li {float:left; margin-bottom:.3em; margin-right:2em; width:12em;}
+.main-results ul.healthaz-related li a {background:transparent; color:#0072B8; text-decoration:none;}
+.main-results ul.healthaz-related li a:hover, .main-results ul.healthaz-related li a:active, .main-results ul.healthaz-related li a:focus {text-decoration:underline;}
+.main-results ul.keymatch li {margin-bottom:0;}
+
+
+/* Scorecard search replacement */
+.findandcompare table {border:0; width:100%;}
+.findandcompare table td, .findandcompare table th {border-left:1px solid #e7e7e7; padding:.5em .6em 0 .6em; text-align:center; width:25%;}
+.findandcompare table th {font-weight:bold; padding-top:0; vertical-align:top;}
+.findandcompare table .fc-first {border-left:0; padding-left:0;}
+.findandcompare table tr.header .fc-first {padding-top:0;}
+.findandcompare table td img {display:inline;}
+.findandcompare table .fcaddress {text-align:left;}
+
+
+@media (max-width:640px) {
+    .column-main {padding:10px;}
+    .main-results {width:auto;}
+    .main-results .four {border:0; width:auto;}
+    .main-results .four .number-of-results {border-bottom:1px solid #ccc; margin-bottom:20px; padding-bottom:20px;}
+    .main-results .one {display:none;}
+    .main-results .four > ul > li {border-bottom:1px dotted #ccc; padding:0 0 15px 0;}
+    .main-results ul.healthaz-related {margin:10px 0;}
+    .main-results ul.healthaz-related li {margin:0 0 0 20px; width:40%;}
+    .main-results .related-searches {margin-top:30px; padding:10px; width:auto;}
+    .fs-result .icon, .media-result .icon {height:52px; width:50px;}
+    .findandcompare .fctel {padding-bottom:0;}
+    .findandcompare table {margin-bottom:10px;}
+    .findandcompare table th, .findandcompare table td {width:auto;}
+    .findandcompare table th:first-child {word-break:break-all;}
+    .findandcompare table th:first-child, .findandcompare table td:first-child {border:0; padding-left:0;}
+    .findandcompare table th:last-child, .findandcompare table td:last-child {padding-right:0;}
+    .main-results .related-searches ul li {width:48%;}
+    .main-results .related-searches ul li:nth-child(even) {margin-right:0;}
+    .main-results .keymatch {margin-bottom:20px;}
+    .main-results .url {word-wrap:break-word;}
+    .main-results .four .pagination ul {text-align:center;}
+    .main-results .four .pagination ul li {display:inline; float:none; font-size:18px !important; padding:0 10px;}
+}

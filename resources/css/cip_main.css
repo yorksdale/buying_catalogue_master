@@ -373,7 +373,7 @@ p.caption-small {
 }
 
 .row.yellowbg {
-	padding:20px;
+	padding:15px;
 	margin: 0 5px;
 	background-color:#FDE6B4;
 }
@@ -1524,6 +1524,7 @@ p {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
+	width:100%;
 }
 @media (min-width: 768px) {
   .lead {
@@ -2341,7 +2342,7 @@ pre code {
     width: 58.33333333%;
   }
   .col-lg-6 {
-    width: 50%;
+    width: 65%;
   }
   .col-lg-5 {
     width: 41.66666667%;

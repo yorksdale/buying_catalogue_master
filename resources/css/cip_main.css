@@ -10,8 +10,10 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+	
 }
 body {
+	background-color:white;
   margin: 0;
 }
 article,
@@ -375,7 +377,8 @@ p.caption-small {
 .row.yellowbg {
 	padding:15px;
 	margin: 0 5px;
-	background-color:#FDE6B4;
+	background-color:#fff;
+	border-bottom: 1px #FDE6B4 solid;
 }
 .bg-grey {
 	display:block;

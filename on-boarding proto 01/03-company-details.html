@@ -13,7 +13,7 @@
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 192x192 pixels in size. -->
 
   <link rel="icon" href="../resources/img/favicon.png">
-  <title>Your details - NHS.UK</title>
+  <title>Your details - GPIT Futures</title>
   <meta name="description" content="This is where NHS.UK tests new pages and services to get feedback. Please take a look and tell us what you think. It will help us to improve what we do.">
 
   <meta name="WT.si_n" content="Test pages for NHS.UK">
@@ -38,7 +38,7 @@
 
   <!--[if gt IE 8]><!-->
   <link href="../resources/css/nhsuk.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="../resources/css/bcstyles.css" media="screen" rel="stylesheet" type="text/css">
+	  <link href="../resources/css/bcstyles.css" media="screen" rel="stylesheet" type="text/css">
   <!--<![endif]-->
   <!--[if IE 6]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie6.73a095663c9860eaca70ee88706b2edd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
   <!--[if IE 7]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie7.73a095663c9860eaca70ee88706b2edd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
@@ -69,7 +69,39 @@
       a.appendChild(r);
     })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
+<script type="text/javascript">
 
+		$(document).ready(function () {
+			//Ensure checkbox is empty on page load
+			$('input:checkbox').prop('checked', false);
+
+			//Set checkbox as variable
+			var ckbox = $('#pds-confirm-checkbox');
+
+			//function to turn bg-grey border green if checkbox is checked and red if it is not
+			$('input').on('click',function () {
+					if (ckbox.is(':checked')) {
+							$('.bg-grey').css("border", "2px solid #009639");
+							$('.bg-grey .block-label:hover').css("border", "none")
+					} else {
+							$('.bg-grey').css("border", "2px solid red")
+					}
+			});
+		});
+
+		//function to ensure form can't be submitted when checbkbox not checked
+		jQuery(function ($) {
+		  //form submit handler
+		  $('#form').submit(function (e) {
+		      //check atleat 1 checkbox is checked
+		      if (!$('.pds-confirm').is(':checked')) {
+		          //prevent the default form submit if it is not checked
+		          e.preventDefault();
+							$('.bg-grey').css("border", "2px solid red");
+		      }
+		  })
+		})
+	</script>
 
 </head>
 
@@ -99,85 +131,163 @@
 
   <main id="content" role="main" tabindex="-1" class="util-nofocus">
 
-    <article role="article">
+    <section role="section">
 
       <div class="local-header">
-
-        <h1 class="local-header__title">Your details</h1>
+        <h1 class="local-header__title">Buying catalogue</h1>
         <div class="local-header__intro">
-          <div class="reading-width">
-            <p>Step 1 of 5</p>
-          </div>
+         
         </div>
 
       </div>
-
-      <div class="page-section">
-
+		<div class="page-section">
+		<div class="row"><div class="col-4 title-sec"><div class="titlebg-a"><h2>Section A</h2></div></div><div class="col-7 title-sec"><h2 class="fblack">Step 2 - Organisation details</h2></div></div></div>
+		<div class="steprow">
+			<div class="row ">
+			<div class="col3 tbox"><p class="centre">Your details</p></div>
+				<div class="col3 tbox"><p class="centre">Organisation details</p></div>
+				<div class="col3 tbox"><p class="centre">Verification</p></div>
+				<div class="col3 tbox"><p class="centre">Confirmation</p></div>
+			</div>
+		</div>
+      <div class="steprow">
+<div class="row padleft">
+	<div class="col2 circlebox "><div class="circle"><h2>1</h2></div></div>
+	<div class="col2 linebox"><div class="hr solid"><hr /></div></div>
+	<div class="col2 circlebox"><div class="circle"><h2>2</h2></div></div>
+	<div class="col2 linebox"><div class="hr"><hr /></div></div>
+	<div class="col2 circlebox"><div class="circle-hole"><h2>3</h2></div></div>
+	<div class="col2 linebox"><div class="hr"><hr /></div></div>
+	<div class="col2 circlebox"><div class="circle-hole"><h2>4</h2></div></div>
+	
+		  </div>
+		  <br><br></div>
+		
+		<div class="page-section">
+<div class="row pad">
         <div class="reading-width">
 
           <h3>Please fill in the boxes below</h3>
           <form>
             <div class="form-group">
-              <label for="full-name">
-                                <span class="form-label-bold" >Full name</span>
-                                <span class="form-hint">
+              <label for="company-name">
+                                <span class="form-label-bold" >Company or organisation name</span>
+                               <!-- <span class="form-hint">
                                     For example, 'Alex Jones'.
-                                </span>
+                                </span>-->
                             </label>
-              <input class="form-control" type="text" id="full-name" kl_vkbd_parsed="true">
+              <input class="form-control" type="text" id="company-name" kl_vkbd_parsed="true">
               <br>
-
-              <fieldset>
-                <label>
-                    <span class="form-label-bold">Date of Birth</span>
-                    <span class="form-hint" id="dob-hint">For example, '07 09 1977'.</span>
-                </label>
-                <div class="form-date">
-                  <div class="form-group form-group-day">
-                    <label class="form-label" for="dob-day">Day</label>
-                    <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" min="0" max="31" aria-describedby="dob-hint" kl_vkbd_parsed="true">
-                  </div>
-                  <div class="form-group form-group-month">
-                    <label class="form-label" for="dob-month">Month</label>
-                    <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" min="0" max="12" kl_vkbd_parsed="true">
-                  </div>
-                  <div class="form-group form-group-year">
-                    <label class="form-label" for="dob-year">Year</label>
-                    <input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" min="0" max="2016" kl_vkbd_parsed="true">
-                  </div>
-                </div>
-              </fieldset>
+				
+				<form class="form-checkbox" id="form" action="pds-online-lookup-p4a.html">
+									<div class="bg-grey">
+										<div class="row"><p>Enter your postcode to prefill your company or organisation 
+address details. You can update any changes.</p>
+											<label for="postcode">
+                                <span class="form-label-bold" >Postcode</span>
+                               
+                            </label>
+              <input class="form-control" id="ni-number3" type="text"><br>
+											<a href="javascript:;">
+            <btn class="btn btn-primary bwidth"><i class="fa fa-search" aria-hidden="true"></i> &nbsp;Search postcode</btn>
+			 </a>
+											<!--<button type="submit" class="btn btn-primary bwidth" name="submit" value="Start now" id="start-now-btn"><i class="fa fa-search" aria-hidden="true"></i> &nbsp;Search postcode</button>-->
+									</div>
+</div></form>
+				
+ 							<label for="address-line1">
+                                <span class="form-label-bold" >Address line 1</span>
+                                <!--<span class="form-hint">
+                                    For example, 'Account Handler'.
+                                </span>-->
+                            </label>
+              <input class="form-control" type="text" id="address-line1" kl_vkbd_parsed="true">
+              <br>
+            
 
               <label for="full-name-f2">
-                                <span class="form-label-bold">Postcode</span>
+                                <span class="form-label-bold">Address line 2</span>
                                 <span class="form-hint">
-                                    For example, 'LS21 4DD'.
+                                    (Optional)
                                 </span>
                             </label>
               <input class="form-control" type="text" id="full-name-f2" kl_vkbd_parsed="true">
               <br>
               <label for="nhs-number">
-                                <span class="form-label-bold" >NHS number</span>
-                                <span class="form-hint">
-                                    You can find this on NHS appointment letters, prescriptions, test results, hospital referrals,
-                                    or by logging in to a GP practice online service.
+                                <span class="form-label-bold" >Town or city</span>
+                               <!-- <span class="form-hint">
+                                    This will be required for the account username for signing in.
                                 </span>
                                 <span class="form-hint">
-                                    For example, ‘486 777 8573’
-                                </span>
+                                    For example, ‘alex.jones@nhsdigital.net’
+                                </span>-->
                             </label>
               <input class="form-control" id="ni-number" type="text">
+				<label for="nhs-number">
+                                <span class="form-label-bold" >County</span>
+					<!--<span class="form-hint">
+                                    This must be 8 or more characters and include letters and numbers including at least 1 capital letter
+                                </span>-->
+                               
+                            </label>
+              <input class="form-control" id="ni-number0" type="text">
+				<label for="nhs-number">
+                                <span class="form-label-bold" >Country</span>
+                               
+                            </label>
+              <input class="form-control" id="ni-number2" type="text">
+				<label for="nhs-number">
+                                <span class="form-label-bold" >Postcode</span>
+                               
+                            </label>
+              <input class="form-control" id="ni-number3" type="text">
             </div>
+			 <!-- <div class="formbox">
+				  <h3>Authorisation statement</h3>
+				  <p>I confirm that I have the authority to represent my
+company or organisation for the purposes of managing the account and 
+administering other users.</p>
+			  
+			  </div>-->
           </form>
-
-          <a href="p4-confirm-your-channel.html">
+<br>
+         <!-- <a href="p4-confirm-your-channel.html">
             <btn class="btn btn-primary">Continue &nbsp;<i class="fa fa-chevron-right"></i></btn>
-          </a>
-        </div>
+          </a>-->
+			
+			<h3>Will this address be used for customer invoicing?</h3>
+			<form class="form-checkbox" id="form2" action="pds-online-lookup-p4b.html">
+									<div class="row border">
+										
+											<label class="pds-confirm block-label2" for="pds-confirm-checkbox2">
+											<input type="radio" class="tc-confirm" id="pds-confirm-checkbox2" />
+											
+												<p>Yes</p>
+										</label>
+									</div>
+										<div class="row border">
+											<label class="pds-confirm block-label2" for="pds-confirm-checkbox2">
+											<input type="radio" class="tc-confirm" id="pds-confirm-checkbox2" />
+											
+												<p>No <a href="#">click here</a> to add your invoicing address</p>
+										</label>
+									</div>
+</form>
+								  <br />
+											<!--<a href="p4-confirm-your-channel.html">
+            <btn class="btn btn-primary">Continue &nbsp;<i class="fa fa-chevron-right"></i></btn>
+          </a>-->
+									
+								
+										
+        
 
 
       </div>
+<a href="04-verification.html">
+            <btn class="btn btn-primary">Continue &nbsp;<i class="fa fa-chevron-right"></i></btn>
+			 </a>
+<!--<button type="submit" class="btn btn-primary" name="submit" value="Start now" id="start-now-btn">Continue &nbsp;<i class="fa fa-chevron-right"></i></button>-->
 
 
 
@@ -186,9 +296,7 @@
 
 
 
-
-
-    </article>
+		</div></div></section>
 
   </main>
 

@@ -13,7 +13,7 @@
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 192x192 pixels in size. -->
 
   <link rel="icon" href="../resources/img/favicon.png">
-  <title>Your details - NHS.UK</title>
+  <title>Your details - GPIT Futures</title>
   <meta name="description" content="This is where NHS.UK tests new pages and services to get feedback. Please take a look and tell us what you think. It will help us to improve what we do.">
 
   <meta name="WT.si_n" content="Test pages for NHS.UK">
@@ -38,7 +38,7 @@
 
   <!--[if gt IE 8]><!-->
   <link href="../resources/css/nhsuk.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="../resources/css/bcstyles.css" media="screen" rel="stylesheet" type="text/css">
+	  <link href="../resources/css/bcstyles.css" media="screen" rel="stylesheet" type="text/css">
   <!--<![endif]-->
   <!--[if IE 6]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie6.73a095663c9860eaca70ee88706b2edd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
   <!--[if IE 7]><link href="https://beta.nhs.uk/assets/stylesheets/nhsuk-ie7.73a095663c9860eaca70ee88706b2edd.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
@@ -69,7 +69,39 @@
       a.appendChild(r);
     })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
+<script type="text/javascript">
 
+		$(document).ready(function () {
+			//Ensure checkbox is empty on page load
+			$('input:checkbox').prop('checked', false);
+
+			//Set checkbox as variable
+			var ckbox = $('#pds-confirm-checkbox');
+
+			//function to turn bg-grey border green if checkbox is checked and red if it is not
+			$('input').on('click',function () {
+					if (ckbox.is(':checked')) {
+							$('.bg-grey').css("border", "2px solid #009639");
+							$('.bg-grey .block-label:hover').css("border", "none")
+					} else {
+							$('.bg-grey').css("border", "2px solid red")
+					}
+			});
+		});
+
+		//function to ensure form can't be submitted when checbkbox not checked
+		jQuery(function ($) {
+		  //form submit handler
+		  $('#form').submit(function (e) {
+		      //check atleat 1 checkbox is checked
+		      if (!$('.pds-confirm').is(':checked')) {
+		          //prevent the default form submit if it is not checked
+		          e.preventDefault();
+							$('.bg-grey').css("border", "2px solid red");
+		      }
+		  })
+		})
+	</script>
 
 </head>
 
@@ -99,7 +131,7 @@
 
   <main id="content" role="main" tabindex="-1" class="util-nofocus">
 
-    <article role="article">
+    <section role="section">
 
       <div class="local-header">
         <h1 class="local-header__title">Buying catalogue</h1>
@@ -108,76 +140,21 @@
         </div>
 
       </div>
-
-      <div class="page-section padsides">
-
-        <div class="bc reading-width">
-<h2 class="bc-title">Welcome to the NHS Digital Buying  Catalogue</h2>
-			<br />
-<h3>Getting products and services onto the catalogue</h3>
-			<hr />
+		
+		  <br><br></div>
+		
+		<div class="page-section padsides">
+<div class="row pad">
+        <div class="bc reading-width ">
+          <h3>Welcome to the NHS Buying Catalogue supplier on-boarding dashboard</h3>
+          <p>To continue the on-boarding process your organisation will have to complete section B-C. Some sections will be greyed out and unaccessable until you have complete the other sections.
+</p>
 			
-			
-			<p>The catalogue requires products and services to be assured against a set of standards and capabilities the current version of standards is v0.1... <a href="javascript:;">read more</a></p>
-			<div class="clearfix">
-			<div class="row regbox">
-				<div class="col-5 regbox-inner-left">
-					<h3>Start by creating an account for your organisation</h3>
-				<ol class="padbot">
-					<p>You will require the following to register your organisation (some items may not be applicable to your organisation)</p>
-	<li>Company Registration Number <br>
-(if applicable)</li>
-	<li>D-U-N-S Number <a href="javascript:;">more info</a></li>
-	<li>VAT Number (if applicable)</li>
-	  </ol>
-				
-	 <a href="02-details.html">
-            <btn class="btn btn-primary">Register account &nbsp;<i class="fa fa-chevron-right"></i></btn>
+<div class="dashbg"></div>
+      </div>
+<a href="javascript:;">
+            <btn class="btn btn-primary bwidth">Standards and compliance information &nbsp;<i class="fa fa-chevron-right"></i></btn>
 			 </a>
-				
-				</div>
-         <div class="col-5 regbox-inner-right"> <h3>Sign in</h3>
-          <form>
-            <div class="form-group">
-              <label for="full-name">
-                                <span class="form-label" >Organisation email address</span>
-                                <!--<span class="form-hint">
-                                    For example, 'info@nhsdigital.net'.
-                                </span>-->
-                            </label>
-              <input class="form-control" type="text" id="full-name" kl_vkbd_parsed="true">
-              
-
-        
-              <label for="full-name-f2">
-                                <span class="form-label">Password</span>
-                                <!--<span class="form-hint">
-                                    For example, 'LS21 4DD'.
-                                </span>-->
-                            </label>
-              <input class="form-control" type="text" id="full-name-f2" kl_vkbd_parsed="true">
-              
-             <!-- <label for="nhs-number">
-                                <span class="form-label-bold" >NHS number</span>
-                                <span class="form-hint">
-                                    You can find this on NHS appointment letters, prescriptions, test results, hospital referrals,
-                                    or by logging in to a GP practice online service.
-                                </span>
-                                <span class="form-hint">
-                                    For example, ‘486 777 8573’
-                                </span>
-                            </label>
-              <input class="form-control" id="ni-number" type="text">-->
-            </div>
-          </form>
-
-          <a href="javascript:;">
-            <btn class="btn btn-primary">Sign in &nbsp;<i class="fa fa-chevron-right"></i></btn>
-			 </a></div>
-				</div></div>
-
-
-      </div></div>
 
 
 
@@ -187,8 +164,7 @@
 
 
 
-
-    </article>
+		</div></div></section>
 
   </main>
 
